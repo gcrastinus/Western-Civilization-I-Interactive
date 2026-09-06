@@ -33,6 +33,29 @@ Downloaded from Wikimedia Commons, 2026-09-06. See `maps/CREDITS.json` for per-f
 
 Battle fields (Marathon, Salamis, Gaugamela, Cannae, Pharsalus, Adrianople) are course-made SVG schematics, not historical plates.
 
+
+## Atmosphere stills (`images/*-atmosphere.jpg`)
+
+Real historical images from Wikimedia Commons (downloaded 2026-09-06). Center-cropped to 1280×720. **Not AI-generated.** Full attribution detail also in the atmospheres worktree `CREDITS.md`. CC BY / CC BY-SA files must keep credit available with the app.
+
+| File | Commons title | Licence | Short description |
+|---|---|---|---|
+| intro-atmosphere.jpg | Standard of Ur - Peace.jpg | CC BY-SA 3.0 | Peace panel of the Standard of Ur; early Mesopotamian mosaic inlay. |
+| w01-atmosphere.jpg | OrteliusWorldMap1570.jpg | Public domain | Ortelius Typus Orbis Terrarum (1570) printed world map plate. |
+| w02-atmosphere.jpg | Agricultural Scenes, Tomb of Nakht MET DT306954.jpg | CC0 | Egyptian New Kingdom agricultural / harvest tomb painting (Nakht). |
+| w03-atmosphere.jpg | Code of Hammurabi (Louvre Sb 8)-31434550325.jpg | CC BY 2.0 | Code of Hammurabi stele (Louvre Sb 8), relief of Hammurabi before Shamash. |
+| w04-atmosphere.jpg | Detail from the Chigi-vase.jpg | Public domain | Detail of the Chigi vase (Protocorinthian pottery, hoplite battle). |
+| w05-atmosphere.jpg | Lupa Capitolina, Rome.jpg | CC0 | Capitoline Wolf (Lupa Capitolina) with Romulus and Remus. |
+| w06-atmosphere.jpg | Battle of Issus mosaic (from Pompeii).jpg | CC BY-SA 4.0 | Alexander Mosaic (Battle of Issus), Naples Archaeological Museum. |
+| w07-atmosphere.jpg | Via Appia in 1870 - 890.jpg | Public domain | Historical photograph of the Via Appia Antica. |
+| w08-atmosphere.jpg | Piranesi Campo Vaccino.jpg | Public domain | Piranesi engraving of the Roman Forum (Campo Vaccino). |
+| w09-atmosphere.jpg | Jean-Léon Gérôme - The Death of Caesar - Walters 37884.jpg | Public domain | Jean-Léon Gérôme, The Death of Caesar (Walters Art Museum). |
+| w10-atmosphere.jpg | Arch of Constantine (Rome).jpg | CC BY-SA 3.0 | Arch of Constantine, Rome. |
+| w11-atmosphere.jpg | Sack of Rome by the Visigoths on 24 August 410 by JN Sylvestre 1890.jpg | Public domain | J.N. Sylvestre, Sack of Rome by the Visigoths (410), 1890. |
+| w12-atmosphere.jpg | Albrecht Dürer - Emperor Charlemagne.jpg | Public domain | Albrecht Dürer, Emperor Charlemagne (Germanisches Nationalmuseum). |
+| w13-atmosphere.jpg | Jean Miélot, Brussels.jpg | Public domain | Jean Miélot writing in his scriptorium (15th-c. illumination, Brussels). |
+| w14-atmosphere.jpg | Henry IV awaited the pope outside Canossa.jpg | CC0 | Henry IV awaiting Pope Gregory VII outside Canossa (Investiture Controversy). |
+
 ## Analytics
 
 GoatCounter is a third-party privacy-friendly counter. No student answers are sent. `WC1.GOATCOUNTER` is a placeholder until a real site exists.
