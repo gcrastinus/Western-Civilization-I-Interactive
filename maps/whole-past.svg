@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-label="Schematic of the Old World">
+  <rect width="1000" height="620" fill="#ead9b8"/>
+  <rect x="40" y="40" width="920" height="540" fill="#d9c49a" stroke="#8a5a28" stroke-width="2"/>
+  <text x="500" y="28" text-anchor="middle" font-size="16" fill="#2c2416" font-family="Georgia,serif">The Old World — a schematic for this course, not a historical plate</text>
+  <ellipse cx="280" cy="220" rx="90" ry="50" fill="#1e4d8c" opacity=".35" stroke="#1e4d8c"/>
+  <text x="280" y="225" text-anchor="middle" font-size="14" fill="#2c2416">Europe</text>
+  <ellipse cx="430" cy="280" rx="70" ry="40" fill="#1e4d8c" opacity=".3" stroke="#1e4d8c"/>
+  <text x="430" y="285" text-anchor="middle" font-size="13">Near East</text>
+  <ellipse cx="360" cy="360" rx="80" ry="36" fill="#1e4d8c" opacity=".25" stroke="#1e4d8c"/>
+  <text x="360" y="365" text-anchor="middle" font-size="13">Nile</text>
+  <ellipse cx="620" cy="240" rx="110" ry="55" fill="#8a5a28" opacity=".28" stroke="#8a5a28"/>
+  <text x="620" y="245" text-anchor="middle" font-size="14">Inner Asia</text>
+  <ellipse cx="800" cy="280" rx="100" ry="50" fill="#8a5a28" opacity=".3" stroke="#8a5a28"/>
+  <text x="800" y="285" text-anchor="middle" font-size="14">China</text>
+  <ellipse cx="720" cy="400" rx="90" ry="40" fill="#8a5a28" opacity=".25" stroke="#8a5a28"/>
+  <text x="720" y="405" text-anchor="middle" font-size="13">India</text>
+  <path d="M120 480 C 300 500 500 470 880 500" fill="none" stroke="#6a5840" stroke-width="8" opacity=".4"/>
+  <text x="500" y="530" text-anchor="middle" font-size="13" fill="#6a5840">agrarian belt (schematic)</text>
+  <text x="80" y="80" font-size="12" fill="#6a5840">NORTH</text>
+  <text x="80" y="560" font-size="12" fill="#6a5840">forager margins</text>
+</svg>
