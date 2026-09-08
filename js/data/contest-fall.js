@@ -12,8 +12,8 @@ WC1.contests.fall = {
     {
       id: 'fall-or-transform',
       title: 'Fall or transformation?',
-      lede: 'Is 476 a death, a transformation, or a date later people needed?',
-      tension: 'A bishop in 500 still writes Latin in a city. A farmer in 550 may have lost his roof-tiles. Both can be true. The quarrel is which fact is the name of the age.',
+      lede: 'Is 476 — the deposition of Romulus Augustulus in Italy — a death of a civilization, a transformation into something else, or a date later people needed for a textbook chapter?',
+      tension: 'A bishop in 500 still writes Latin in a city. A farmer in 550 may have lost his roof-tiles and his coins. Both can be true. The quarrel is which fact should name the age: the bishop’s continuity, or the farmer’s loss.',
       views: [
         {
           stance: 'opposing',

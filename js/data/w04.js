@@ -27,7 +27,7 @@ WC1.registerWeek({
           { id: 'b', text: 'A body of citizens who can be seen, armed, and judged in a place', correct: true },
           { id: 'c', text: 'A nation in the modern sense', correct: false }
         ],
-        reveal: '<p>The temple matters. The “nation” is later. The thing that makes Greece a problem for this course is a public of men who fight as a line and argue as a line.</p>'
+        reveal: '<p>The temple matters. The modern “nation” is later. What makes Greece a problem for this course is a public of men who fight as a line of citizens and argue as a line in an assembly — not a people defined only by a shrine or by a king.</p>'
       },
       src: 'maps/greece.jpg',
       slot: 'w04-greece',
@@ -38,8 +38,8 @@ WC1.registerWeek({
         { x: 80, y: 32, title: 'Athens and Attica', html: '<p>A polis with a port (Phaleron, later Piraeus) and a countryside. The fleet of 480 is a political fact: rowers are a kind of citizen. Marathon sits on the same coast.</p>' },
         { x: 84, y: 26, title: 'Marathon', html: '<p>The landing plain of 490. Plataea is inland of it. The road back to the unguarded city is the rest of the day.</p>' },
         { x: 72, y: 40, title: 'Salamis', html: '<p>The island and the strait of 480. The Isthmus and Corinth sit to the west: the Peloponnesian alternative to fighting here.</p>' },
-        { x: 58, y: 64, title: 'Sparta / Laconia', html: '<p>A camp that never quite demobilizes. Lycurgus, in the assigned life, is how later Greeks told that fact as a lawgiver. Meet the land first: Eurotas, perioikoi, helots as the material of a mess-table.</p>' },
-        { x: 64, y: 38, title: 'Corinth and the Isthmus', html: '<p>The wall-line the Peloponnesians wanted in 480. A coherent policy for a land army; a disaster for a city whose good life had become a fleet.</p>' }
+        { x: 58, y: 64, title: 'Sparta / Laconia', html: '<p>Sparta’s good life is a camp that never quite demobilizes. Lycurgus, in the assigned life, is how later Greeks told that fact as if a lawgiver had designed it. Meet the land first: the Eurotas valley, the perioikoi (free neighbors who are not Spartiates), and the helots whose labor is the material of the mess-table.</p>' },
+        { x: 64, y: 38, title: 'Corinth and the Isthmus', html: '<p>The wall-line the Peloponnesians wanted in 480: hold the Isthmus, let Attica burn, fight on land. That is a coherent policy for a land army. It is a disaster for a city, Athens, whose good life had become a fleet of citizen-rowers.</p>' }
       ]
     },
     {
@@ -59,12 +59,12 @@ WC1.registerWeek({
           { id: 'b', text: 'Enough citizen-farmers to buy bronze and to stand in a line that only works if the man beside you holds', correct: true },
           { id: 'c', text: 'A standing royal army paid in coin from the start', correct: false }
         ],
-        reveal: '<p>Heroes still exist in the poems. The phalanx is a different efficient cause: repeated standing-together. Material cause: bronze, oil, a farm that can spare a man for a season. Formal cause: a citizen who would be ashamed to leave a gap.</p>'
+        reveal: '<p>Heroes still exist in the poems. The phalanx is a different kind of cause: not a few named champions, but repeated standing-together in a line. Material cause: bronze, oil, a farm that can spare a man for a season. Formal cause: a citizen who would be ashamed to leave a gap in the shields. Without those, “hoplite” is only a costume.</p>'
       },
       steps: [
-        { title: 'The panoply', html: '<p>Shield (the hollow Argive aspis), spear, helmet, greaves. The shield is large because it is meant to cover the man to your left as well as yourself. A hoplite is already a relation.</p>', rows: 1, overlap: 4 },
-        { title: 'Depth', html: '<p>Eight men is a common depth in later writing; it varies. The rear ranks push and replace. This is not a duel. It is a weight.</p>', rows: 8, overlap: 10 },
-        { title: 'Who cannot be in it', html: '<p>A man too poor for bronze, a woman, a slave, a foreigner. The phalanx is an image of the citizen body because it is also a census of who may not stand there. Sparta’s mess-tables are one extreme of that fact; Athens will later row a different census to sea.</p>', rows: 8, overlap: 12 }
+        { title: 'The panoply', html: '<p>Shield (the hollow Argive aspis), spear, helmet, greaves. The shield is large because it is meant to cover the man to your left as well as yourself. A hoplite is already a relation: the line works only if the neighbor holds.</p>', rows: 1, overlap: 4 },
+        { title: 'Depth', html: '<p>Eight men is a common depth in later writing; it varies. The rear ranks push and replace the fallen. This is not a duel of champions. It is a weight of citizens pressing together.</p>', rows: 8, overlap: 10 },
+        { title: 'Who cannot be in it', html: '<p>A man too poor for bronze, a woman, a slave, a foreigner. The phalanx is an image of the citizen body because it is also a census of who may not stand there. Sparta’s mess-tables are one extreme of that fact (only the equals eat and fight). Athens will later row a different census to sea: poorer citizens as oarsmen.</p>', rows: 8, overlap: 12 }
       ]
     },
     {
@@ -74,11 +74,11 @@ WC1.registerWeek({
       kind: 'reconstruction',
       type: 'reconstruction',
       demo: 'geometry',
-      blurb: 'A figure that binds anyone who grants the lines — a Greek habit of public reason, in miniature.',
+      blurb: 'A geometric proof that binds anyone who grants the lines — a Greek habit of public argument, in miniature.',
       steps: [
-        { title: 'The figure', html: '<p>A right triangle. The claim (older than Euclid’s Elements as a book, later frozen there as I.47): the square on the hypotenuse equals the squares on the two sides. You do not have to “believe” it. You have to follow.</p>', stage: 1 },
-        { title: 'The squares', html: '<p>Build a square on each side. The claim is about those areas. Greek mathematics is a public act with letters on a diagram, not a priestly table of constants — though it has older cousins in the East.</p>', stage: 2 },
-        { title: 'Why it belongs here', html: '<p>This is not “the Greeks invent reason.” It is a reconstruction of a habit: a proof that can be copied, taught, and used as a model of what a public argument looks like. The same culture that stands in a phalanx likes a figure that does not depend on who your father is.</p>', stage: 3 }
+        { title: 'The figure', html: '<p>A right triangle. The claim (older than Euclid’s <em>Elements</em> as a book, later written there as proposition I.47): the square built on the hypotenuse equals the two squares built on the other sides. You do not have to “believe” it as you believe a story. You have to follow the figure.</p>', stage: 1 },
+        { title: 'The squares', html: '<p>Build a square on each side. The claim is about those areas. Greek mathematics is a public act with letters on a diagram, not a priestly table of constants — though it has older cousins in the East, where lists and measures were already long practiced.</p>', stage: 2 },
+        { title: 'Why it belongs here', html: '<p>This is not a claim that “the Greeks invent reason.” It is a reconstruction of a habit: a proof that can be copied, taught, and used as a model of what a public argument looks like. The same culture that stands in a phalanx likes a figure whose force does not depend on who your father is.</p>', stage: 3 }
       ]
     },
     {
@@ -228,18 +228,18 @@ WC1.registerWeek({
       nav: 'Odyssey',
       kind: 'passages',
       type: 'passages',
-      blurb: 'Not the assigned Life of Lycurgus. A nostos that ends in recognition, land, and a father.',
+      blurb: 'Not the assigned Life of Lycurgus. A homecoming (nostos) that ends in recognition, land, and a father.',
       passages: [
         {
           title: 'The man of many turns',
           who: 'Odyssey 1',
-          html: '<p>A man who is not Achilles: cunning, delay, a return that is a series of tests. The good life in this poem is a household restored — bed, orchard, a son — not a beautiful death.</p>',
+          html: '<p>A man who is not Achilles: cunning, delay, a return that is a series of tests rather than a beautiful death. The good life in this poem is a household restored — bed, orchard, a son — not the kleos of dying young on the field.</p>',
           original: '<p>Ἄνδρα μοι ἔννεπε, Μοῦσα, πολύτροπον, ὃς μάλα πολλὰ πλάγχθη…</p>'
         },
         {
           title: 'Laertes’ farm',
           who: 'Odyssey 24 (sense of the scene)',
-          html: '<p>The last recognition is a garden: trees counted, a wound of a boar, a father in farm-clothes. Kingship here is a remembered orchard. That is not Sparta’s mess-table and not a river-god’s palace. It is a Greek picture of a good life that can be named tree by tree.</p>'
+          html: '<p>The last recognition is a garden: trees counted, a wound of a boar, a father in farm-clothes. Kingship here is a remembered orchard Odysseus can name tree by tree. That is not Sparta’s mess-table and not a river-god’s palace. It is a Greek picture of a good life attached to a particular farm.</p>'
         }
       ],
       ask: 'What vision of the good life is being restored on that farm — and who, in the poem, never gets a farm?'
@@ -279,12 +279,12 @@ WC1.registerWeek({
       type: 'passages',
       review: true,
       blurb: 'When the week has ended: the lawgiver as a later Greek need.',
-      html: '<p>Plutarch’s Lycurgus is how a later Greek (and a Roman reader) wanted Sparta to have a founder. How much of the phalanx-room survives that portrait, and how much is a moral tale for men who no longer ate in messes?</p>',
+      html: '<p>Plutarch’s <em>Life of Lycurgus</em> is how a later Greek (and a Roman reader) wanted Sparta to have a founder — one lawgiver who designed the mess-tables, the training, the equality of the equals. How much of what you saw in the phalanx room survives that portrait, and how much is a moral tale for men who no longer ate in those messes?</p>',
       passages: [
         {
           title: 'A life is an argument',
           who: 'After the assigned life',
-          html: '<p>A lawgiver who makes a people is a useful thought. A people who make a lawgiver in retrospect is also a historical fact. Keep both.</p>'
+          html: '<p>A lawgiver who makes a people is a useful thought: it explains why Sparta looks designed. A people who make a lawgiver in retrospect is also a historical fact: later writers needed a name for habits that had grown over time. Keep both. Do not let Plutarch’s century disappear into Lycurgus, or Lycurgus disappear into “just a myth.”</p>'
         }
       ],
       ask: 'What in the Life taught you Sparta, and what taught you Plutarch’s century?'

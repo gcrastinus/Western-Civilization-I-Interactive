@@ -54,14 +54,14 @@ WC1.registerWeek({
           title: 'Restored the Republic',
           who: 'Augustus',
           work: 'Res Gestae 34 (sense)',
-          html: '<p>After that time I excelled all in influence (<em>auctoritas</em>), but of power (<em>potestas</em>) I had no more than the others who were my colleagues in each magistracy. The new thing must be spoken as the old thing. A princeps is a first citizen. The army knows otherwise.</p>',
+          html: '<p>After that time I excelled all in influence (<em>auctoritas</em>), but of power (<em>potestas</em>) I had no more than the others who were my colleagues in each magistracy. The new thing — one man first among all — must be spoken as the old thing, a restored republic of colleagues. A <em>princeps</em> is a first citizen. The army, which is his, knows otherwise.</p>',
           original: '<p>Post id tempus auctoritate omnibus praestiti, potestatis autem nihilo amplius habui quam ceteri qui mihi quoque in magistratu conlegae fuerunt.</p>',
           source: 'Res Gestae Divi Augusti 34.3 (public domain).'
         },
         {
           title: 'The deeds',
           who: 'Augustus',
-          html: '<p>Temples, games, money to the plebs, gates of Janus closed. A good life as a city that can see marble and cheap grain. The efficient cause of loyalty is listed as if it were piety. It is also a budget.</p>'
+          html: '<p>Temples, games, money to the plebs, the gates of Janus closed (a sign of peace). The good life is shown as a city that can see marble and eat cheap grain. The list of deeds is written as piety and restoration. It is also a budget: who is paid, who is fed, who sees the buildings.</p>'
         }
       ],
       ask: 'Which sentence in the Res Gestae would be false if the army had not been his?'
@@ -77,12 +77,12 @@ WC1.registerWeek({
         {
           scholar: 'A religious reading',
           summary: 'A vision before the Milvian Bridge, a man who takes a God as his patron, later baptism. The empire acquires a cult that cannot be one among others.',
-          html: '<p>Position: take the sources’ God seriously enough to argue with them. Eusebius is a courtier; that does not make the conversion a cartoon. A princeps who prays is still a princeps.</p>'
+          html: '<p>Take the sources’ God seriously enough to argue with them. Eusebius is a courtier writing for Constantine; that does not make the conversion a cartoon or a lie. A princeps who prays is still a princeps: the vision, if it happened, does not stop him from being a ruler who needs armies, taxes, and a public cult that can hold the empire together.</p>'
         },
         {
           scholar: 'A political reading',
           summary: 'Christianity was already a network of cities, bishops, and a people who would die rather than sacrifice. Constantine backs a public that can be a partner of the throne.',
-          html: '<p>Position: the tetrarchy had already made the empire a theology of companions of Jupiter and Hercules. Constantine changes the names and the personnel. The material is an urban church that can be convened at Nicaea.</p>'
+          html: '<p>The tetrarchy (Diocletian’s four-emperor system) had already made the empire a theology of companions of Jupiter and Hercules: rulers with divine patrons. Constantine changes the names and the personnel. The material he can use is an urban church — bishops in cities, a people who would die rather than sacrifice — that can be convened at Nicaea (325) as a partner of the throne. On this view the conversion is also a policy: backing a public that can travel with the empire.</p>'
         }
       ],
       ask: 'If the vision had not happened, what in the empire’s structure still makes a Christian princeps thinkable by 312?'

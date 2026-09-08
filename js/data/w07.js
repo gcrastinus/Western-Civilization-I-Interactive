@@ -72,17 +72,17 @@ WC1.registerWeek({
       nav: 'Dispute: imperium',
       kind: 'dispute',
       type: 'dispute',
-      blurb: 'Command, friendship, province — three names for a shadow.',
+      blurb: 'Command, “friendship,” province: three names for Roman power before there is an emperor.',
       positions: [
         {
           scholar: 'The public-law sense',
           summary: 'Imperium is the magistrate’s right to command citizens and to make war. It is time-limited, colleague-checked, and sacred with the auspices.',
-          html: '<p>Position: do not read later emperors backward. A consul in the field is not a king because he has a twin, a year, and a city that can try him (in theory) afterward.</p>'
+          html: '<p>Do not read later emperors backward into the third century BC. A consul in the field holds <em>imperium</em> — the right to command citizens and to make war — but he is not a king. He has a colleague (a twin in office), a year in command, and, in theory, a city that can try him afterward. That is what “republic” means here: command that is shared and timed, not a throne.</p>'
         },
         {
           scholar: 'The Hellenistic sense',
           summary: 'In the east, Rome looks like a suzerain: “friends,” hostages, indemnities, the power to unmake a league. Greeks have names for that. Romans can still call it liberty.',
-          html: '<p>Position: the proclamation of Greek freedom and the sack of Corinth (146) are the same policy at different temperatures. The dispute is whether the Romans were hypocrites or whether libertas meant, for them, a place in their system.</p>'
+          html: '<p>In 196 BC Flamininus proclaimed the freedom of the Greeks; in 146 Rome sacked Corinth. Those are the same policy at different temperatures: Rome as arbitrator who can also unmake a city. The dispute is whether the Romans were hypocrites, or whether <em>libertas</em> meant, for them, a place inside their system of “friends” and hostages — not independence as a Greek would define it.</p>'
         }
       ],
       ask: 'When a Greek city thanks Rome for liberty, what has it actually received — a constitution, or a delay?'

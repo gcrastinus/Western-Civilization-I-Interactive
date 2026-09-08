@@ -8,7 +8,7 @@ WC1.registerWeek({
     who: 'Caesar (as later told)',
     source: 'a crossing of a small river that was a legal line'
   },
-  kicker: 'Week 9 · from Sulla’s ghost to Pharsalus; the office of being indispensable',
+  kicker: 'Week 9 · from Sulla’s example to Pharsalus: captains the constitution cannot recall',
   lede: 'Barrows, and Conte’s Cicero if you choose him for the Analysis. Here the field that unmakes the senatorial cause, and a dispute about why a constitution of colleagues could not hold its captains — without quoting the assigned life while it is live.',
   rooms: [
     {
@@ -90,12 +90,12 @@ WC1.registerWeek({
         {
           scholar: 'A moral-political reading',
           summary: 'Sulla’s example, Caesar’s dignity, Cato’s rigidity: men who will not be second. The fall is a failure of character in a ruling class.',
-          html: '<p>Position: Cicero’s letters are full of this. It is not nothing. A republic of colleagues requires men who can bear to be colleagues. The question is whether that is a sufficient cause, or a description of the last act.</p>'
+          html: '<p>Cicero’s letters are full of this reading: Sulla showed that a captain could take the city; Caesar would not be second; Cato would not yield. A republic of colleagues requires men who can bear to be colleagues rather than indispensable. That is not nothing. The question is whether failure of character is a sufficient cause of the Republic’s end, or only a description of the last act — the men who happened to be there when the machine had already changed.</p>'
         },
         {
           scholar: 'A material reading',
           summary: 'The levy of the un-propertied, overseas commands of many years, land for veterans, a city that can no longer feed its politics from a census of Italian farms alone.',
-          html: '<p>Position: Marius, the socii, the provinces as a fortune: the army becomes a following. Pharsalus is two such followings. The mixed constitution Polybius admired did not include a method for demobilizing a conqueror of Gaul.</p>'
+          html: '<p>Marius enrolled men without property; the Italian allies (socii) fought for a share; the provinces became a fortune a captain could tap. The army becomes a following of a man, not a levy of the census. Pharsalus is two such followings meeting in Thessaly. The mixed constitution Polybius admired had no method for demobilizing a conqueror of Gaul and sending him home as a private citizen.</p>'
         }
       ],
       ask: 'If you must pick a first cause — a man, a law, or an army’s pay — which one makes the other two intelligible?'

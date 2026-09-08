@@ -5,7 +5,7 @@ WC1.registerWeek({
   lens: 'No new rooms',
   kicker: 'Week 13 · Thanksgiving',
   lede: 'No new rooms. Use the Analyses of History you already have. The oral will ask you to be seamless about one stretch: East, Greece, or Rome into the first Europe.',
-  about: '<p>Bring a document that puts captains, laws, fields, and a vision of the good life on one table. You may have it open. If you do not have an answer, the examiner will move on.</p><p>The four causes, once: a vision, a character of habits, two or three exemplary acts, and the material (river, bronze, road, script) without which those habits could not have been had. If the causes do not earn their keep in that paragraph, drop them.</p>',
+  about: '<p>Bring a document that puts captains, laws, battlefields, and a vision of the good life on one table for one stretch of the course (the East, Greece, or Rome into the first Europe). You may have it open. If you do not have an answer, the examiner will move on.</p><p>Use the four causes once, and only if they explain something: a vision of the good life (final); a character of habits (formal); two or three exemplary acts or persons (efficient); and the material — river, bronze, road, script — without which those habits could not have existed. If the causes do not earn their keep in that paragraph, drop them and speak plainly.</p>',
   rooms: []
 });
 
@@ -38,7 +38,7 @@ WC1.registerWeek({
           { id: 'b', text: 'A spiritual office and a block of land, men, and loyalty — which is why kings insist on investing', correct: true },
           { id: 'c', text: 'Already a modern civil service post', correct: false }
         ],
-        reveal: '<p>Investiture is a fight over a double thing. If you forget the land, Gregory looks like a theologian only. If you forget the staff and ring, Henry looks like a king defending a fiscal church only.</p>'
+        reveal: '<p>Investiture is a fight over a double thing: a bishop is both a pastor of souls and a lord of land, men, and loyalty. If you forget the land, Gregory looks like a theologian only. If you forget the staff and ring (the spiritual signs of office), Henry looks like a king defending a tax-system only. Both are in the quarrel.</p>'
       },
       src: 'maps/investiture.jpg',
       slot: 'w14-investiture',
@@ -64,19 +64,19 @@ WC1.registerWeek({
           title: 'The Roman church alone',
           who: 'Dictatus Papae',
           years: '1075',
-          html: '<p>That the Roman church was founded by God alone. That the Roman pontiff alone is by right called universal. That he alone may use the imperial insignia. These are not sermons. They are headings of a public law of the keys.</p>',
+          html: '<p>That the Roman church was founded by God alone. That the Roman pontiff alone is by right called universal. That he alone may use the imperial insignia. These are not sermons meant to edify. They are headings of a public law of the keys: claims about who may judge whom in this world.</p>',
           source: 'Register of Gregory VII (public-domain translations of the dicta).'
         },
         {
           title: 'Deposition',
           who: 'Dictatus Papae §12',
-          html: '<p>That he may depose emperors. The sentence is short because the claim is a jurisdiction, not a metaphor. A king is a man who can be bound. The later letters to Hermann of Metz unpack the anthropology: an anointed king is not beyond judgment.</p>',
+          html: '<p>That he may depose emperors. The sentence is short because the claim is a jurisdiction — a right to judge — not a metaphor about spiritual influence. A king is a man who can be bound, including the emperor. The later letters to Hermann of Metz spell this out: an anointed king is not beyond judgment just because he is anointed.</p>',
           original: '<p>Quod illi liceat imperatores deponere.</p>'
         },
         {
           title: 'Unmaking bishops',
           who: 'Dictatus Papae',
-          html: '<p>That he may depose and reinstate bishops without assembling a synod (dicta 3 and 25 in the usual numbering). A reform of simony needs a power against local churches, not only against kings. <em>Libertas ecclesiae</em> here is also a centralization.</p>'
+          html: '<p>That he may depose and reinstate bishops without assembling a synod (dicta 3 and 25 in the usual numbering). A reform of simony (the buying of church office) needs a power against local churches, not only against kings. <em>Libertas ecclesiae</em> — the freedom of the Church — here also means centralization: Rome judging bishops who had been local lords.</p>'
         }
       ],
       ask: 'Which dictum is aimed at kings, which at bishops, and which at the very idea of a priest-king? They are not one shot.'
@@ -89,8 +89,8 @@ WC1.registerWeek({
       type: 'prose',
       blurb: 'A penitent at a door; an absolution that is also a political act.',
       html:
-        '<p>Henry IV, bound and deposed in the Roman forum, comes to the countess’s castle in the Apennines. For three days, in the later telling, he stands in the snow. Gregory, who is a priest as well as a politician, absolves a penitent. The inner forum is satisfied. The Saxon opposition is not.</p>' +
-        '<p>Read it as a court. Who had standing? What act was performed? What was not decided? Absolution restores communion. It does not settle who invests a bishop in Milan. Henry leaves able to be a king among his own again. Gregory leaves having shown the keys and having used up a coalition’s patience.</p>' +
+        '<p>Henry IV, excommunicated and declared deposed by Gregory, comes in January 1077 to the countess Matilda’s castle in the Apennines. For three days, in the later telling, he stands in the snow as a penitent. Gregory, who is a priest as well as a politician, absolves him. The inner forum — the forum of penance and communion — is satisfied. The Saxon opposition in Germany, which wanted Henry kept down, is not.</p>' +
+        '<p>Read the event as you would a court. Who had standing to act? What act was actually performed? What was not decided? Absolution restores communion with the Church. It does not settle who invests a bishop in Milan. Henry leaves able to be a king among his own again, no longer cut off from the altar. Gregory leaves having shown that the keys can bind an emperor — and having used up some of his coalition’s patience, because a priest who must absolve a penitent cannot also keep that penitent politically dead.</p>' +
         '<p>Material cause, once: a castle, a winter, a road a king can still travel when his German enemies have not yet closed it. Efficient cause: a man who will wear wool at a door because the alternative is to remain un-kinged in the only public that still blesses kings.</p>'
     },
     {
@@ -101,9 +101,9 @@ WC1.registerWeek({
       type: 'prose',
       blurb: 'A split of symbols: sceptre, ring, staff.',
       html:
-        '<p>After Gregory’s exile and death, after Henry’s antipope, after a generation of war in Germany and Italy, Calixtus II and Henry V agree at Worms. In the Empire: free election, imperial investiture with the sceptre (the temporal), ecclesiastical investiture with ring and staff (the spiritual). In some other lands the mix differs. The point is the split.</p>' +
-        '<p>A procedure is not a peace of souls. It is a way to go on. The bishop is still a double thing. The two laws have been given two props. Later Europe will live inside that habit: a church that can quarrel with a king without disappearing, a king who can still need bishops as men of land.</p>' +
-        '<p>This course ends here on purpose. The twelfth-century renaissance, the universities, the later papacy — those are the next sequence. You now have the quarrel that makes them possible.</p>'
+        '<p>After Gregory’s exile and death, after Henry’s antipope, after a generation of war in Germany and Italy, Pope Calixtus II and Emperor Henry V agree at Worms in 1122. In the Empire the settlement is: free election of bishops; the emperor invests with the sceptre (the temporal, the land and loyalty); the Church invests with ring and staff (the spiritual office). In some other lands the mix differs. The point is the split of symbols: two laws, two props, one man who is still both pastor and lord.</p>' +
+        '<p>A procedure is not a peace of souls. It is a way to go on without pretending the quarrel never happened. The bishop is still a double thing. Later Europe will live inside that habit: a church that can quarrel with a king without disappearing, and a king who can still need bishops as men of land.</p>' +
+        '<p>This course ends here on purpose. The twelfth-century renaissance, the universities, the later papacy — those belong to the next sequence. You now have the quarrel that makes them possible: two jurisdictions in one landscape.</p>'
     },
     {
       id: 'contest',

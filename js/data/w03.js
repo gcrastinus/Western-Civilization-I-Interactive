@@ -17,7 +17,7 @@ WC1.registerWeek({
       nav: 'Map of the East',
       kind: 'map',
       type: 'map',
-      blurb: 'Egypt, Hatti, Mitanni, Babylon, Assyria — a concert of powers, not a Bible map.',
+      blurb: 'Egypt, Hatti, Mitanni, Babylon, Assyria as a concert of palace-powers — not a map drawn around the later Bible.',
       question: {
         id: 'w03-q-ane',
         kind: 'mc',
@@ -27,7 +27,7 @@ WC1.registerWeek({
           { id: 'b', text: 'A concert of palace-powers (Egypt, Hatti, Mitanni, Kassite Babylon, Assyria) writing to one another as kings', correct: true },
           { id: 'c', text: 'A void waiting for Greece', correct: false }
         ],
-        reveal: '<p>The Amarna letters are the type of this world: kings who call each other “brother,” who send gold and daughters, who complain about caravans. Israel’s story, when it becomes a kingdom, is a late and small fact inside this concert.</p>'
+        reveal: '<p>The Amarna letters (fourteenth century BC) are the type of this world: kings who call each other “brother,” who send gold and daughters, who complain about caravans. Israel’s story, when it becomes a kingdom, is a late and small fact inside this concert of palaces — not the center of the map in 1400.</p>'
       },
       src: 'maps/ane.png',
       slot: 'w03-ane',
@@ -54,18 +54,18 @@ WC1.registerWeek({
         {
           title: 'Men were too noisy',
           who: 'Atrahasis (sense of the poem)',
-          html: '<p>The gods made men to bear the toil. Then the noise of men disturbed the rest of the high gods. Flood is a political-theological instrument: a reduction of the workforce that had become a nuisance. That is not Genesis. It is a palace world’s account of why a people can be too many.</p>',
+          html: '<p>The gods made men to bear the toil the gods no longer wished to bear. Then the noise of men disturbed the rest of the high gods. The flood, in this poem, is a political-theological instrument: a reduction of the workforce that had become a nuisance. That is not the same story as Genesis. It is a palace world’s account of why a people can be too many.</p>',
           source: 'Paraphrase of a public-domain epic tradition; not a substitute for a facing-page text.'
         },
         {
           title: 'Instruction',
           who: 'The type of Ptahhotep',
-          html: '<p>An old official teaches a son how to sit in an office: listen, do not be greedy, the ka of a man is his character in the king’s house. Wisdom here is a court art. The good life is a well-run room.</p>'
+          html: '<p>An old official teaches a son how to sit in an office: listen, do not be greedy; a man’s <em>ka</em> (his vital character) is shown in the king’s house. Wisdom here is a court art. The good life is a well-run room, not a battlefield and not a prophet’s lawsuit against the king.</p>'
         },
         {
           title: 'A people, not a palace only',
           who: 'Israel’s difference (as a historical claim)',
-          html: '<p>Whatever one makes of the conquest narratives, the later prophets speak as if a people can be judged by a law that is not the king’s whim. That is a different final cause from the god-king, even when Israel has kings. Keep it as a claim to be tested, not as a lesson already decided.</p>'
+          html: '<p>Whatever one makes of the conquest narratives, the later prophets speak as if a people can be judged by a law that is not the king’s whim. That is a different vision of the good life from the god-king’s, even when Israel has kings. Keep it as a historical claim to be tested against the texts, not as a lesson already decided in advance.</p>'
         }
       ],
       ask: 'Which of these could not be spoken in the other two worlds without changing its meaning?'
@@ -81,13 +81,13 @@ WC1.registerWeek({
         {
           scholar: 'Henri Frankfort (position)',
           work: 'Myth and Reality (as a type of argument)',
-          summary: 'Myth is a way of being in the world, not a failed physics. To ask “did they really believe” as if they were bad scientists is to miss the act.',
-          html: '<p>Position (summary): the Memphite Theology is not a primitive lab report. It is a way of locating speech, craft, and kingship in the same origin. If you translate it into “they thought Ptah was a person who invented tools,” you have already left their world.</p>'
+          summary: 'Myth is a way of being in the world, not a failed physics. To ask “did they really believe that?” as if they were bad scientists is to miss what the act of myth is doing.',
+          html: '<p>The Memphite Theology (Ptah creating by speech and craft) is not a primitive lab report that got the physics wrong. It is a way of locating speech, craft, and kingship in the same origin. If you translate it into “they thought Ptah was a person who invented tools,” you have already left their world and entered a modern quarrel about belief.</p>'
         },
         {
           scholar: 'A documentary reading',
-          summary: 'Myths are also charters: they justify a temple’s income, a king’s levy, a city’s rank. Speculative piety can wait; follow the grain and the office.',
-          html: '<p>Position: Liverani’s kind of suspicion — a first city is an organization of surplus. Hymns are part of the organization. Both readings can be true; they are not the same question.</p>'
+          summary: 'Myths are also charters: they justify a temple’s income, a king’s levy, a city’s rank. Follow the grain and the office, not only the piety.',
+          html: '<p>Mario Liverani’s kind of suspicion: a first city is an organization of surplus — who stores the grain, who eats, who serves. Hymns are part of that organization, not a separate spiritual layer. Both readings can be true at once. They are not the same question: one asks how the world is conceived; the other asks who is fed.</p>'
         }
       ],
       ask: 'When a hymn and a levy inhabit one temple, which reading is doing the work — and when do you need both?'
@@ -123,7 +123,7 @@ WC1.registerWeek({
         {
           title: 'A plate is an argument',
           who: 'After the atlas',
-          html: '<p>Color is a claim. “Empire” on a map is often a king’s letter, a march, and a hope. Keep the Amarna file in mind: brotherhood is a diplomacy, not a feeling.</p>'
+          html: '<p>Color on a historical map is a claim, not a photograph. “Empire” often means a king’s letter, a march, and a hope that the color will hold. Keep the Amarna file in mind: when kings call each other “brother,” that is diplomacy, not a feeling of kinship.</p>'
         }
       ],
       ask: 'Name one plate that helped and one that flattered a later Bible or school story.'

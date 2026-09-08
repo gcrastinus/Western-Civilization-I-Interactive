@@ -1,7 +1,7 @@
 WC1.contests.investiture = {
   id: 'investiture',
   book: { author: 'the field', title: 'the Investiture Contest', year: '1075–1122' },
-  html: '<p>Who makes a bishop: the king who needs a loyal man in a city, or the Church that claims the staff and ring as spiritual things? The quarrel is a fight over two laws in one landscape — and over whether a priest-king can still exist in Latin Europe.</p><p>This is not a Reacting game. Read the documents as documents. Then say who could do what to whom.</p>',
+  html: '<p>Who makes a bishop: the king who needs a loyal man in a city, or the Church that claims the staff and ring as spiritual signs that a layman may not give? The quarrel is a fight over two laws in one landscape — canon law and royal law — and over whether a priest-king, a ruler who is both anointed and a judge of the Church, can still exist in Latin Europe.</p><p>This is not a Reacting game (a role-play in which you impersonate Gregory or Henry). Read the documents as documents. Then say who could do what to whom.</p>',
   chronology: [
     { year: '1059', who: 'Papal election decree', note: 'Nicholas II, In nomine Domini: cardinal-bishops lead the election of a pope. A reform circle tries to take the papacy out of Roman families and to limit, not yet abolish, imperial say. Already a claim about who constitutes the Roman church.' },
     { year: '1075', who: 'Dictatus Papae', note: 'A register of claims in Gregory VII’s register: the pope may depose emperors; he alone is universal; he may unmake bishops. Whether it was a manifesto or a set of headings, it is a theory of the keys as a public law.' },
@@ -13,8 +13,8 @@ WC1.contests.investiture = {
     {
       id: 'two-laws',
       title: 'Two laws, one landscape',
-      lede: 'Gelasius already distinguished two. Investiture asks whether a king may still hand over a church as if it were a fief.',
-      tension: 'Libertas ecclesiae can mean freedom from lay appointment, or a papal monarchy over kings. Kings hear the second even when reformers preach the first.',
+      lede: 'Pope Gelasius I (fifth century) already distinguished two: the sacred authority of priests and the royal power. Investiture asks whether a king may still hand over a church — land, men, and altar — as if it were a fief he owned.',
+      tension: '<em>Libertas ecclesiae</em> (freedom of the Church) can mean freedom from lay appointment of bishops, or it can mean a papal monarchy over kings. Kings often hear the second even when reformers preach the first.',
       views: [
         {
           stance: 'opposing',
@@ -33,7 +33,7 @@ WC1.contests.investiture = {
           stance: 'complementary',
           scholar: 'Gerd Tellenbach',
           work: 'Church, State and Christian Society at the Time of the Investiture Contest',
-          claim: 'The motor is libertas ecclesiae: a freedom of the Church as a distinct society, not originally a blueprint for papal world-rule.',
+          claim: 'The motor of the conflict is libertas ecclesiae: freedom of the Church as a distinct society, not originally a blueprint for the pope to rule the world.',
           evidence: '<p>Monastic reform, the attack on simony and nicolaitism, a language of freedom older than Gregory’s dictatus. Complementary to the documents; opposing to a story that begins with papal ambition as such.</p>'
         },
         {

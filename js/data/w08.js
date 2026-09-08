@@ -124,12 +124,12 @@ WC1.registerWeek({
           scholar: 'Polybius',
           work: 'Histories VI',
           summary: 'Rome mixes kingship (consuls), aristocracy (Senate), and democracy (people) so that each checks the others. The test is disaster: a mixed body can take a Cannae and continue.',
-          html: '<p>Position (summary): this is a theory written by a Greek who watched Rome eat his world. It is not a naive hymn. It is an attempt to name a machine. The question is whether the machine is the constitution or the alliance-system and the census of farms.</p>'
+          html: '<p>Polybius is a Greek hostage who watched Rome swallow his world. Book VI is not a naive hymn to Rome. It is an attempt to name a machine: consuls, Senate, and people checking one another, so that a disaster like Cannae does not end the state. The question is whether that machine really is the constitution of offices, or whether what survived was the alliance-system of Italian socii and the census of farms that could still raise new legions.</p>'
         },
         {
           scholar: 'A material reply',
           summary: 'What survived Cannae was Italian manpower, a Senate that would not treat, and a capacity to make new legions. “Mixture” is a later diagram of that stubbornness.',
-          html: '<p>Position: Polybius’s three parts are real offices. They are not why a socius from Campania still sends men after 216. Roads, colonies, and the fear of Hannibal as a worse master are also causes.</p>'
+          html: '<p>Polybius’s three parts — consuls, Senate, people — are real offices. They are not, by themselves, why an Italian ally from Campania still sends men after 216. Roads, colonies, and the fear that Hannibal would be a worse master than Rome are also causes. “Mixture” may be a later diagram of that stubbornness, not the thing that produced it.</p>'
         }
       ],
       ask: 'If you had to keep one sentence of Polybius after Cannae, would it be about mixture, or about a people that can be levied again?'

@@ -78,15 +78,15 @@ WC1.registerWeek({
         {
           scholar: 'The papal story',
           summary: 'Leo III crowns a protector. The keys make a western emperor. Later Gregorians will remember this as a precedent of making and unmaking.',
-          html: '<p>Position: a coronation in St Peter’s is not a decoration. It is a public act in a particular church. Investiture will ask whether that act can run in reverse.</p>'
+          html: '<p>A coronation in St Peter’s is not a decoration added to a king who already had everything. It is a public act in a particular church, performed by a pope. Later Gregorians will remember 800 as a precedent: if a pope can make a western emperor, perhaps he can also unmake one. Investiture will ask whether that act can run in reverse.</p>'
         },
         {
           scholar: 'The Frankish story',
           summary: 'Charles already ruled a hegemony. The title names a fact. Einhard’s embarrassment about the coronation (if it is embarrassment) is a king’s dislike of seeming to owe a priest.',
-          html: '<p>Position: without the Frankish army and the Saxon wars, the pope is a bishop in a dangerous city. The dispute is not whether 800 happened. It is which office was the efficient cause of the other.</p>'
+          html: '<p>Without the Frankish army and the Saxon wars, the pope is a bishop in a dangerous city who needs a protector. Einhard’s embarrassment about the coronation (if it is embarrassment) is a king’s dislike of seeming to owe a priest the title he already held in fact. The dispute is not whether 800 happened. It is which office was the efficient cause of the other: did the pope make an emperor, or did a Frankish hegemony take a name?</p>'
         }
       ],
-      ask: 'Keep this quarrel until week 14. What in 800 already contains Canossa, and what in 800 is still a world where king and priest eat at one table?'
+      ask: 'Keep this quarrel until week 14. What in 800 already contains Canossa (a priest claiming to make and unmake kings), and what in 800 is still a world where king and priest eat at one table as allies?'
     },
     {
       id: 'connections',

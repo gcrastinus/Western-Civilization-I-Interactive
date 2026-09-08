@@ -118,9 +118,9 @@ WC1.registerWeek({
       type: 'prose',
       blurb: 'Successor kingdoms, a common Greek, cities as instruments.',
       html:
-        '<p>The man dies in Babylon. The army becomes the argument. Antigonids, Ptolemies, Seleucids: Macedonian houses on Persian and Egyptian tax-machines, with Greek cities as garrisons of a culture.</p>' +
-        '<p>Koine Greek is a material cause of later Scripture, later philosophy, later Roman eastern administration. A peasant in the Fayum does not become a Spartan. He can, if needed, be spoken to in a Greek that a man from Macedon and a man from Athens both roughly have.</p>' +
-        '<p>Rome will not meet “Greece” as a set of poleis only. It will meet kingdoms, leagues, and a civilization that already thinks of itself as common. That is the hinge into next week.</p>'
+        '<p>Alexander dies in Babylon in 323. The army becomes the argument over who will hold what he took. The Successors — Antigonids, Ptolemies, Seleucids — are Macedonian houses sitting on Persian and Egyptian tax-machines, with Greek cities as garrisons of a culture, not as independent poleis of the old kind.</p>' +
+        '<p>Koine (common) Greek is a material cause of later Scripture, later philosophy, and later Roman administration in the east. A peasant in the Fayum does not become a Spartan. He can, if needed, be spoken to in a Greek that a man from Macedon and a man from Athens both roughly share.</p>' +
+        '<p>Rome will not meet “Greece” as a set of independent city-states only. It will meet kingdoms, leagues, and a civilization that already thinks of itself as common. That is the hinge into next week.</p>'
     },
     {
       id: 'connections',
@@ -148,12 +148,12 @@ WC1.registerWeek({
       type: 'passages',
       review: true,
       blurb: 'When the week has ended: Plutarch’s Alexander as a moral plot.',
-      html: '<p>Which scenes in the Life were about a soul, and which were about a tax-district? The Gaugamela room was the second. Plutarch is allowed the first. You need both.</p>',
+      html: '<p>Which scenes in the Life were about a soul (character, anger, piety), and which were about a tax-district or an army’s supply? The Gaugamela room was the second kind. Plutarch is allowed the first. You need both, and you should be able to tell them apart.</p>',
       passages: [
         {
           title: 'A parallel life',
           who: 'After Plutarch',
-          html: '<p>Plutarch writes lives in pairs for character. An empire is not a character. Keep the pair, then go back to the satrapies.</p>'
+          html: '<p>Plutarch writes lives in pairs for character: Alexander beside Caesar, a soul beside a soul. An empire of satrapies is not a character. Keep the pair if it helps you see a decision; then go back to the satrapies, the cities named Alexandria, and the army that had to be paid.</p>'
         }
       ],
       ask: 'Where did Plutarch help you see a decision, and where did he hide a logistics?'

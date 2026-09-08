@@ -79,12 +79,12 @@ WC1.registerWeek({
           scholar: 'The annalistic story',
           work: 'Livy, Book I (as a type)',
           summary: 'Aeneas, Romulus, kings, a rape, a Senate, a liberty after Tarquin. The city is a moral plot: violence at the origin, law as the remedy.',
-          html: '<p>Position: Livy knows he is telling what was believed. The use of the story is to form Romans. A founding that includes fratricide is already an argument about what kind of people this is.</p>'
+          html: '<p>Livy knows he is telling what was believed, not what he had seen. The use of the story is to form Romans: to show what kind of people they are supposed to be. A founding that includes Romulus killing Remus is already an argument — this city begins in violence and then tries to turn violence into law. Read Book I as that argument, not as a witness of 750 BC.</p>'
         },
         {
           scholar: 'The ground',
-          summary: 'Huts on hills, burials, a forum that was a wet valley, Etruscan engineering. The city is a drainage problem before it is a world-soul.',
-          html: '<p>Position: start with the material. Kings in the stories look like a memory of real chiefs and of Etruscan power. “Republic” begins when a set of families can rotate offices. That is less pretty than Brutus and more like a town.</p>'
+          summary: 'Huts on hills, burials, a forum that was a wet valley, Etruscan engineering. The city is a drainage problem and a cluster of families before it is a moral tale about liberty.',
+          html: '<p>Start with the material remains. Kings in the stories look like a memory of real chiefs and of Etruscan power across the Tiber. “Republic” begins, in this view, when a set of families can rotate offices instead of leaving one man in command. That is less pretty than Brutus driving out Tarquin, and more like a town learning to share power.</p>'
         }
       ],
       ask: 'Which origin do you need in order to understand a census-class later — the myth of the twins, or the wet forum?'

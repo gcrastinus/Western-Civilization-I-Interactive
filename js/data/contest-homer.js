@@ -72,7 +72,7 @@ WC1.contests.homer = {
           stance: 'complementary',
           scholar: 'A working compromise',
           claim: 'Dictation or early writing can freeze a performance without ending the tradition. Later editors regularize. The Odyssey you hold is both a song and a book.',
-          evidence: '<p>Lord allowed dictation. A text can be an oral-derived text. That phrase is not a dodge; it is a refusal to choose a false pair: either “pure orality” or “a novelist in 750 BC.”</p>'
+          evidence: '<p>Albert Lord allowed that a singer might dictate a performance to a scribe. A text can be “oral-derived”: it comes from song, then is written down. That phrase is not a dodge. It is a refusal to choose a false pair: either “pure orality with no writing” or “a novelist sitting at a desk in 750 BC.”</p>'
         }
       ],
       shifts: '<p>The alphabet is a material cause. So is a festival that pays rhapsodes. So is a library. The Homeric Question, treated this way, is a question about institutions, not only about genius.</p>',
