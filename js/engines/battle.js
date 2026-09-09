@@ -50,6 +50,9 @@ WC1.engines.battle = function (spec, mount) {
   ui.appendChild(timeLab);
   mount.appendChild(ui);
 
+  const premise = WC1.el('p', { class: 'cf-premise' });
+  premise.hidden = true;
+
   if (spec.counterfactuals && spec.counterfactuals.length) {
     const cf = WC1.el('div', { class: 'cf' });
     const hist = WC1.el('button', { class: 'tbtn on', type: 'button', text: 'What happened' });
@@ -58,17 +61,22 @@ WC1.engines.battle = function (spec, mount) {
     spec.counterfactuals.forEach(function (c) {
       const b = WC1.el('button', { class: 'tbtn', type: 'button', text: c.title });
       b.addEventListener('click', function () {
+        /* A counterfactual must not inherit the historical outcome. It keeps the
+           ground (map, field, sides) and replaces everything the change touches. */
         const merged = Object.assign({}, spec, c, {
           map: spec.map,
           fieldSvg: spec.fieldSvg,
           places: c.places || spec.places,
-          sides: spec.sides
+          sides: spec.sides,
+          result: c.result || null,
+          resultFrom: c.resultFrom || spec.resultFrom
         });
         setScenario(merged, b);
       });
       cf.appendChild(b);
     });
     mount.appendChild(cf);
+    mount.appendChild(premise);
   }
 
   const beat = WC1.el('div', { class: 'beat' });
@@ -126,6 +134,9 @@ WC1.engines.battle = function (spec, mount) {
     });
     const b = currentBeat(t);
     WC1.clear(beat);
+    if (scenario !== spec) {
+      beat.appendChild(WC1.el('p', { class: 'cf-flag', text: 'Counterfactual — this did not happen' }));
+    }
     if (scenario.result && t >= (scenario.resultFrom || 0.78)) {
       beat.appendChild(WC1.el('div', {
         class: 'battle-result',
@@ -164,6 +175,13 @@ WC1.engines.battle = function (spec, mount) {
     play.textContent = 'Play';
     mount.querySelectorAll('.cf .tbtn').forEach(function (x) { x.classList.remove('on'); });
     if (btn) btn.classList.add('on');
+    if (s.premise) {
+      premise.innerHTML = '<strong>' + (s.title || 'Suppose') + '.</strong> ' + s.premise;
+      premise.hidden = false;
+    } else {
+      premise.innerHTML = '';
+      premise.hidden = true;
+    }
     draw();
   }
 

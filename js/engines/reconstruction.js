@@ -118,25 +118,56 @@ WC1.recon.tables = function (el, step) {
     '<p class="who" style="padding:8px 4px">Bronze (or painted wood) in the Forum: a law you can point at. The wording above is English paraphrase of later citations, not a recovered bronze.</p>';
 };
 
+/* Right angle at C; leg a upward, leg b to the right, hypotenuse c.
+   Each square sits on the outside of its own side, which is the whole point
+   of the figure: the areas are the sides, seen. */
 WC1.recon.geometry = function (el, step) {
-  const stage = step.stage != null ? step.stage : 2;
-  const a = 60, b = 80, c = 100;
-  const ox = 80, oy = 170;
-  const sq = function (x, y, w, h, rot, fill) {
-    return '<g transform="translate(' + x + ' ' + y + ') rotate(' + rot + ')">' +
-      '<rect width="' + w + '" height="' + h + '" fill="' + fill + '" stroke="#1a4a5c"/>' +
-      '</g>';
-  };
-  el.innerHTML = '<svg viewBox="0 0 420 260" role="img" aria-label="Right triangle and squares on the sides">' +
-    '<rect width="420" height="260" fill="#e8eef2"/>' +
-    '<polygon points="' + ox + ',' + oy + ' ' + (ox + b) + ',' + oy + ' ' + ox + ',' + (oy - a) + '" fill="rgba(26,74,92,.16)" stroke="#1a4a5c" stroke-width="2"/>' +
-    (stage >= 1 ? sq(ox, oy, b, b, 0, 'rgba(138,90,40,.18)') : '') +
-    (stage >= 2 ? sq(ox, oy - a, a, a, -90, 'rgba(26,74,92,.18)') : '') +
-    (stage >= 3 ? '<g transform="translate(' + ox + ' ' + (oy - a) + ') rotate(' + (-Math.atan(a / b) * 180 / Math.PI) + ')">' +
-      '<rect width="' + c + '" height="' + c + '" fill="rgba(92,45,110,.14)" stroke="#5c2d6e"/></g>' : '') +
-    '<text x="210" y="24" text-anchor="middle" font-size="13">The square on the hypotenuse equals the squares on the sides</text>' +
-    '<text x="210" y="248" text-anchor="middle" font-size="12">A proof is a public act: anyone who grants the figure is bound</text>' +
-    '</svg>';
+  const stage = step.stage != null ? step.stage : 3;
+  const u = 30;
+  const a = 3 * u, b = 4 * u, c = 5 * u;
+  const cx = 150, cy = 250;
+  const Ax = cx, Ay = cy - a;          /* top of the vertical leg */
+  const Bx = cx + b, By = cy;          /* end of the horizontal leg */
+  const phi = Math.atan2(a, b) * 180 / Math.PI;
+
+  const teal = '#1a4a5c', brown = '#8a5a28', plum = '#5c2d6e';
+
+  const sqB = '<g transform="translate(' + cx + ' ' + cy + ')">' +
+    '<rect width="' + b + '" height="' + b + '" fill="rgba(138,90,40,.16)" stroke="' + brown + '"/>' +
+    '<text x="' + (b / 2) + '" y="' + (b / 2 + 5) + '" text-anchor="middle" font-size="14" fill="' + brown + '">b\u00b2 = 16</text></g>';
+
+  const sqA = '<g transform="translate(' + (cx - a) + ' ' + (cy - a) + ')">' +
+    '<rect width="' + a + '" height="' + a + '" fill="rgba(26,74,92,.16)" stroke="' + teal + '"/>' +
+    '<text x="' + (a / 2) + '" y="' + (a / 2 + 5) + '" text-anchor="middle" font-size="14" fill="' + teal + '">a\u00b2 = 9</text></g>';
+
+  /* stand at B, face A along the hypotenuse; the square then falls outside the triangle */
+  const sqC = '<g transform="translate(' + Bx + ' ' + By + ') rotate(' + (180 + phi) + ')">' +
+    '<rect width="' + c + '" height="' + c + '" fill="rgba(92,45,110,.14)" stroke="' + plum + '"/>' +
+    '<text x="' + (c / 2) + '" y="' + (c / 2 + 5) + '" text-anchor="middle" font-size="14" fill="' + plum + '" transform="rotate(' + (-(180 + phi)) + ' ' + (c / 2) + ' ' + (c / 2) + ')">c\u00b2 = 25</text></g>';
+
+  const tri = '<polygon points="' + cx + ',' + cy + ' ' + Bx + ',' + By + ' ' + Ax + ',' + Ay + '" ' +
+    'fill="rgba(26,74,92,.10)" stroke="' + teal + '" stroke-width="2"/>' +
+    '<path d="M' + cx + ' ' + (cy - 14) + ' h14 v14" fill="none" stroke="' + teal + '" stroke-width="1.5"/>' +
+    '<text x="' + (cx + 10) + '" y="' + (cy - a / 2 + 16) + '" font-size="15" fill="' + teal + '">a = 3</text>' +
+    '<text x="' + (cx + b / 2) + '" y="' + (cy + 18) + '" text-anchor="middle" font-size="15" fill="' + brown + '">b = 4</text>' +
+    '<text x="' + (cx + b / 2 + 14) + '" y="' + (cy - a / 2 - 6) + '" text-anchor="middle" font-size="15" fill="' + plum + '">c = 5</text>';
+
+  const sum = stage >= 3
+    ? '<text x="220" y="402" text-anchor="middle" font-size="15">9 + 16 = 25</text>' +
+      '<text x="220" y="420" text-anchor="middle" font-size="12.5" fill="#5a4a38">The two smaller squares, together, are the large one.</text>'
+    : (stage >= 2
+      ? '<text x="220" y="402" text-anchor="middle" font-size="15">9 + 16 = ?</text>'
+      : '<text x="220" y="402" text-anchor="middle" font-size="15">A right angle, and three sides that can each carry a square</text>');
+
+  el.innerHTML = '<svg viewBox="0 0 440 432" role="img" aria-label="Right triangle with squares on its three sides">' +
+    '<rect width="440" height="432" fill="#e8eef2"/>' +
+    '<text x="220" y="26" text-anchor="middle" font-size="14">The square on the hypotenuse equals the squares on the two legs</text>' +
+    (stage >= 2 ? sqA + sqB : '') +
+    (stage >= 3 ? sqC : '') +
+    tri +
+    sum +
+    '</svg>' +
+    '<p class="who" style="padding:6px 4px">A proof is a public act: anyone who grants the figure is bound by it, whatever his father was.</p>';
 };
 
 WC1.recon.scriptorium = function (el, step) {
@@ -156,174 +187,3 @@ WC1.recon.scriptorium = function (el, step) {
     '</div>';
 };
 
-WC1.recon['mean-speed'] = function (el, step) {
-  const T = (step.T != null) ? step.T : 8;
-  const vmax = 12;
-  const w = 520, h = 280, p = 40;
-  const x = function (t) { return p + (t / T) * (w - 2 * p); };
-  const y = function (v) { return h - p - (v / vmax) * (h - 2 * p); };
-  const mean = vmax / 2;
-  el.innerHTML = '<svg viewBox="0 0 ' + w + ' ' + h + '" role="img" aria-label="Oresme triangle of speeds">' +
-    '<rect width="' + w + '" height="' + h + '" fill="transparent"/>' +
-    '<polygon points="' + x(0) + ',' + y(0) + ' ' + x(T) + ',' + y(0) + ' ' + x(T) + ',' + y(vmax) + '" fill="rgba(123,45,38,.22)" stroke="#7b2d26" />' +
-    '<rect x="' + x(0) + '" y="' + y(mean) + '" width="' + (x(T) - x(0)) + '" height="' + (y(0) - y(mean)) + '" fill="rgba(30,58,95,.18)" stroke="#1e3a5f" />' +
-    '<text x="' + (w / 2) + '" y="22" text-anchor="middle" font-size="13" fill="currentColor">Triangle of speeds (uniform acceleration) = rectangle at the mean speed</text>' +
-    '<text x="' + x(T) + '" y="' + (y(0) + 16) + '" text-anchor="end" font-size="12">time</text>' +
-    '<text x="' + (x(0) - 8) + '" y="' + y(vmax) + '" text-anchor="end" font-size="12">speed</text>' +
-    '</svg>';
-};
-
-WC1.recon.computus = function (el, step, spec) {
-  const year = (step.year != null) ? step.year : 1215;
-  const golden = (year % 19) + 1;
-  const epact = (11 * (golden - 1)) % 30;
-  /* Simplified Julian Easter (Dionysian): */
-  const a = year % 19, b = year % 4, c = year % 7;
-  const d = (19 * a + 15) % 30;
-  const e = (2 * b + 4 * c - d + 34) % 7;
-  const month = Math.floor((d + e + 114) / 31);
-  const day = ((d + e + 114) % 31) + 1;
-  const months = { 3: 'March', 4: 'April' };
-  el.innerHTML = '<div style="font-family:var(--sans);font-size:15px;padding:8px 10px">' +
-    '<p><strong>Year ' + year + '</strong> (Julian tables the computists actually used)</p>' +
-    '<ol>' +
-    '<li>Golden number = (year mod 19) + 1 = <strong>' + golden + '</strong></li>' +
-    '<li>Epact (age of the moon on 22 March) ≈ <strong>' + epact + '</strong></li>' +
-    '<li>Sunday letter from the solar cycle (year mod 28)</li>' +
-    '<li>Easter Sunday falls on <strong>' + (months[month] || month) + ' ' + day + '</strong></li>' +
-    '</ol>' +
-    '<p class="who">The tables exist so that a cathedral chapter in York and a convent in Cologne keep the same feast. That is a legal and liturgical unity, not a hobby of arithmetic.</p>' +
-    '</div>';
-};
-
-WC1.recon.astrolabe = function (el, step) {
-  const rot = (step.rot != null) ? step.rot : 25;
-  el.innerHTML = '<svg viewBox="0 0 320 320" role="img" aria-label="Simplified astrolabe">' +
-    '<circle cx="160" cy="160" r="148" fill="#e8dcc4" stroke="#6e5c45"/>' +
-    '<circle cx="160" cy="160" r="132" fill="none" stroke="#1e3a5f" stroke-dasharray="3 4"/>' +
-    '<g transform="rotate(' + rot + ' 160 160)" stroke="#7b2d26" fill="none">' +
-    '<circle cx="160" cy="160" r="90"/>' +
-    '<polygon points="160,70 168,160 160,250 152,160" fill="rgba(123,45,38,.25)" stroke="#7b2d26"/>' +
-    '<circle cx="196" cy="108" r="4" fill="#7b2d26"/>' +
-    '<text x="202" y="104" font-size="11" fill="#7b2d26">rete star</text>' +
-    '</g>' +
-    '<line x1="160" y1="20" x2="160" y2="300" stroke="#2a2118" stroke-width="2"/>' +
-    '<text x="160" y="16" text-anchor="middle" font-size="12">alidade</text>' +
-    '</svg>' +
-    '<p class="who" style="padding:6px 10px">You take the altitude of a known star with the alidade. You rotate the rete (the star map) until that star sits on the almucantar of that altitude. The rule then reads the hour. Time is not a feeling; it is a position on an instrument.</p>';
-};
-
-WC1.recon.incline = function (el, step) {
-  const t = (step.t != null) ? step.t : 0;
-  const s = t * t;
-  const maxS = 16;
-  const x = 40 + (s / maxS) * 440;
-  el.innerHTML = '<svg viewBox="0 0 520 200" role="img" aria-label="Inclined plane">' +
-    '<polygon points="40,160 480,40 480,160" fill="rgba(30,58,95,.12)" stroke="#1e3a5f"/>' +
-    [1, 4, 9, 16].map(function (d, i) {
-      const xx = 40 + (d / 16) * 440;
-      return '<line x1="' + xx + '" y1="36" x2="' + xx + '" y2="168" stroke="#a67c2e"/><text x="' + xx + '" y="184" text-anchor="middle" font-size="11">' + d + '</text>';
-    }).join('') +
-    '<circle cx="' + x + '" cy="' + (160 - (s / 16) * 120) + '" r="9" fill="#7b2d26"/>' +
-    '</svg>' +
-    '<p class="who" style="padding:6px 10px">Distances 1, 4, 9, 16 in equal times — the odd-number rule. Galileo timed with a water clock and a groove lined with parchment, not with a stopwatch.</p>';
-};
-
-WC1.recon.jupiter = function (el, step) {
-  const nights = [
-    { label: '7 Jan 1610', moons: [-38, -18, 16, 34] },
-    { label: '8 Jan', moons: [-30, 12, 22, 40] },
-    { label: '10 Jan', moons: [-36, -8, 10, 28] },
-    { label: '11 Jan', moons: [-22, -6, 18, 32] },
-    { label: '12 Jan', moons: [-40, -14, 8, 24] },
-    { label: '13 Jan', moons: [-16, 6, 20, 36] }
-  ];
-  const n = nights[step.night || 0] || nights[0];
-  const dots = n.moons.map(function (x) {
-    return '<circle cx="' + (160 + x * 2.2) + '" cy="80" r="4" fill="#1e3a5f"/>';
-  }).join('');
-  el.innerHTML = '<svg viewBox="0 0 320 140" role="img" aria-label="Jupiter and four attendants">' +
-    '<rect width="320" height="140" fill="#1a2230"/>' +
-    '<circle cx="160" cy="80" r="16" fill="#d4a04a"/>' +
-    dots +
-    '<text x="160" y="24" text-anchor="middle" fill="#f6efe2" font-size="13">' + n.label + '</text>' +
-    '</svg>' +
-    '<p class="who" style="padding:6px 10px">Four attendants change place from night to night and never leave Jupiter. A second center of motion exists. That is what Sidereus Nuncius actually showed, before any later quarrel about tides or comets.</p>';
-};
-
-WC1.recon.leeuwenhoek = function (el, step) {
-  const mag = step.mag || 1;
-  const r = 18 * mag;
-  el.innerHTML = '<svg viewBox="0 0 320 200" role="img">' +
-    '<rect width="320" height="200" fill="#efe4cf"/>' +
-    '<circle cx="160" cy="100" r="' + Math.min(r, 90) + '" fill="rgba(72,102,76,.35)" stroke="#48664c"/>' +
-    '<text x="160" y="24" text-anchor="middle" font-size="13">single-lens microscope · about ×' + mag + '</text>' +
-    (mag < 30 ? '<text x="160" y="104" text-anchor="middle" font-size="12">louse / mold</text>' : '<text x="160" y="104" text-anchor="middle" font-size="12">animalcules in pepper-water</text>') +
-    '</svg>';
-};
-
-WC1.recon.lavoisier = function (el, step) {
-  el.innerHTML = '<svg viewBox="0 0 420 180" role="img" aria-label="Closed-vessel weighing">' +
-    '<line x1="40" y1="50" x2="380" y2="50" stroke="#2a2118" stroke-width="3"/>' +
-    '<rect x="70" y="70" width="70" height="50" fill="none" stroke="#1e3a5f"/>' +
-    '<rect x="280" y="70" width="70" height="50" fill="none" stroke="#7b2d26"/>' +
-    '<text x="105" y="160" text-anchor="middle" font-size="12">vessel + mercury calx</text>' +
-    '<text x="315" y="160" text-anchor="middle" font-size="12">weights</text>' +
-    '<text x="210" y="28" text-anchor="middle" font-size="13">' + (step.caption || 'Nothing is lost; the air has a part that combines.') + '</text>' +
-    '</svg>';
-};
-
-WC1.recon.watt = function (el, step) {
-  el.innerHTML = '<svg viewBox="0 0 420 200" role="img" aria-label="Indicator diagram">' +
-    '<line x1="50" y1="170" x2="380" y2="170" stroke="currentColor"/>' +
-    '<line x1="50" y1="170" x2="50" y2="30" stroke="currentColor"/>' +
-    '<polyline points="50,50 140,50 300,140 360,155" fill="none" stroke="#7b2d26" stroke-width="2"/>' +
-    '<text x="210" y="192" text-anchor="middle" font-size="12">volume</text>' +
-    '<text x="16" y="100" font-size="12" transform="rotate(-90 16 100)">pressure</text>' +
-    '<text x="210" y="22" text-anchor="middle" font-size="13">Watt indicator: work is the area under the curve</text>' +
-    '</svg>' +
-    '<p class="who" style="padding:6px 10px">The separate condenser (1765/69) keeps the cylinder hot. The indicator later makes the work visible as a closed figure. Engineers could see what a Newcomen engine wasted.</p>';
-};
-
-WC1.recon.jones = function (el) {
-  const rows = [
-    ['Sanskrit', 'pitā', 'mātā', 'bhrātā', 'trayas'],
-    ['Latin', 'pater', 'māter', 'frāter', 'trēs'],
-    ['Greek', 'patēr', 'mētēr', 'phratēr', 'treis'],
-    ['English', 'father', 'mother', 'brother', 'three']
-  ];
-  let html = '<table style="width:100%;border-collapse:collapse;font-size:15px">';
-  rows.forEach(function (r, i) {
-    html += '<tr>' + r.map(function (c) {
-      return '<td style="border-bottom:1px solid var(--rule);padding:6px 8px">' + (i === 0 ? '<strong>' + c + '</strong>' : c) + '</td>';
-    }).join('') + '</tr>';
-  });
-  html += '</table>';
-  el.innerHTML = html;
-};
-
-WC1.recon.printing = function (el, step) {
-  const labels = ['punch & matrix', 'composing stick', 'locked form', 'press & tympan'];
-  el.innerHTML = '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;font-family:var(--sans);font-size:13px;text-align:center">' +
-    labels.map(function (l, i) {
-      const on = (step.n || 0) === i;
-      return '<div style="border:1px solid var(--rule);border-radius:10px;padding:18px 8px;background:' + (on ? 'color-mix(in srgb,var(--gold) 25%,var(--panel))' : 'var(--panel2)') + '">' + (i + 1) + '<br>' + l + '</div>';
-    }).join('') + '</div>';
-};
-
-WC1.recon.bookkeeping = function (el, step) {
-  el.innerHTML = '<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:14px">' +
-    '<div><h3>Journal</h3><p>Venice, 10 March. Cloth sold to Giovanni for 40 ducats on account.</p></div>' +
-    '<div><h3>Ledger</h3><p><strong>Dr</strong> Giovanni 40<br><strong>Cr</strong> Cloth 40</p><p class="who">Every fact is named twice. The books close only if the world of the firm is internally consistent.</p></div>' +
-    '</div>';
-};
-
-WC1.recon.pompeii = function (el, step) {
-  el.innerHTML = '<svg viewBox="0 0 420 160" role="img">' +
-    '<rect width="420" height="160" fill="#e7d9bc"/>' +
-    '<rect x="0" y="40" width="420" height="50" fill="#c4b08a"/>' +
-    '<rect x="0" y="20" width="420" height="22" fill="#9a8b6e"/>' +
-    '<rect x="180" y="70" width="18" height="70" fill="#6e5c45"/>' +
-    '<text x="210" y="150" text-anchor="middle" font-size="12">1748: a well shaft hits a theatre. The city is not a myth.</text>' +
-    '</svg>';
-};

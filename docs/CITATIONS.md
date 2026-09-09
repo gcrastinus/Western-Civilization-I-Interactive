@@ -13,7 +13,20 @@ Maxwell, Christian, the Penguin Atlas, Barrows, Tellegen-Couperus, Blaisdell’s
 
 ## Secondary positions (summaries, short fair-use)
 
-Positions are summarized from the scholarly quarrels the rooms name: Wolf, Parry/Lord, Nagy, West (Homer); Gibbon, Pirenne, Brown, Heather, Ward-Perkins (Fall of Rome); Tellenbach, Ullmann, Tierney (Investiture); Polybius as a primary-theoretical voice on the constitution. Quoted blocks are kept short; otherwise the card is a position-summary.
+Positions are summarized from the scholarly quarrels the rooms name. Quoted blocks are kept short; otherwise the card is a position-summary and no continuous text is reproduced.
+
+- **Civilization (contest, week 1):** Febvre on the word; Guizot; Tylor and Morgan; Boas and the culture concept; Spengler; Toynbee; Elias, *The Civilizing Process*; Braudel; V. Gordon Childe on the urban revolution; Allardyce, "The Rise and Fall of the Western Civilization Course" (AHR 1982); Huntington, with Said and Sen.
+- **Three eras (week 2):** Sahlins, *Stone Age Economics*; James C. Scott, *Against the Grain*; Childe and McNeill in the background.
+- **Myth and reality (week 3):** Frankfort; Liverani; Bottero on divination; Assmann on cultural memory.
+- **Homeric Question (contest, week 4):** Wolf; the analysts and unitarians; Parry and Lord; Nagy; West; Neoanalysis (Kakridis, Kullmann); and for the Trojan War, Finley, Korfmann and Kolb, the Hittite Ahhiyawa/Wilusa material, Latacz.
+- **Origins of Rome (week 5):** Cornell, *The Beginnings of Rome*; Carandini on the Palatine; Wiseman, *Remus*.
+- **Imperium (week 7):** Harris, *War and Imperialism*; Gruen, *The Hellenistic World and the Coming of Rome*; Eckstein, *Mediterranean Anarchy*.
+- **The mixed constitution (week 8):** Polybius as a primary-theoretical voice; Millar, *The Crowd in Rome*; Holkeskamp, *Reconstructing the Roman Republic*; Mouritsen.
+- **End of the Republic (week 9):** Syme, *The Roman Revolution*; Brunt; Gruen, *The Last Generation*; Flower and Morstein-Marx.
+- **Constantine (week 10):** Burckhardt; Baynes; A. H. M. Jones; Barnes; Drake.
+- **Fall of Rome (contest, week 11):** Gibbon, Pirenne, Peter Brown, Heather, Ward-Perkins, Goffart, Wickham, Halsall; the Transformation of the Roman World project as context.
+- **The crown of 800 (week 12):** Folz; Janet Nelson; Collins; McKitterick.
+- **Investiture (contest, week 14):** Tellenbach, Ullmann, Tierney, Blumenthal, Cowdrey and Robinson, Reuter, Althoff on ritual; Bismarck 1872 for the afterlife of Canossa.
 
 ## Maps
 

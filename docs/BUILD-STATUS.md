@@ -29,7 +29,7 @@ app/
   css/app.css
   js/namespace.js calendar.js storage.js analytics.js app.js
   js/engines/{question,passages,map,battle,reconstruction,contest}.js
-  js/data/intro.js arts.js overlay.js review.js contest-homer.js contest-fall.js contest-investiture.js w01.js … w12.js
+  js/data/intro.js arts.js overlay.js review.js contest-civilization.js contest-homer.js contest-fall.js contest-investiture.js w01.js … w12.js
   maps/            historical bases + CREDITS.json
   images/          atmosphere slots
   docs/BUILD-STATUS.md  README.md  CITATIONS.md  GROK-IMAGE-SLOTS.md
@@ -51,8 +51,24 @@ app/
 - [x] CITATIONS.md
 - [x] Smoke check (`node --check`, `node scripts/smoke.js`)
 - [x] Browser click-through (open `?faculty=1` and walk intro, a map, a battle + counterfactual, a reconstruction, a dispute, week 14)
+- [x] Review pass (Sept 2026): counterfactual banner bug, geometry figure, dispute depth, prose
 - [ ] Create the real GoatCounter site and paste the URL into `js/analytics.js`
 - [ ] Restyle maps + confirm atmosphere stills in `images/`
+
+## Review pass, 9 September 2026
+
+Fixed:
+
+- Counterfactual scenarios were inheriting the historical `result` banner, so "If they had fought at the Isthmus" still announced the Greek victory in the strait. Counterfactuals now carry only their own result, are flagged in the beat panel, and render a `premise` line if they have one.
+- `WC1.recon.geometry` drew the square on the vertical leg above the apex and the square on the hypotenuse mirrored off it. Rewritten as a correct 3-4-5 figure with the areas labelled.
+- The twelve WC II demos that had been copied into `js/engines/reconstruction.js` and were never called are removed.
+- `document.title` now names the room; the contents filter survives a re-render; the theme button shows the state it is in.
+
+Content:
+
+- Week 1's "civilization" dispute is now a full contest (`contest-civilization.js`, three topics with a chronology).
+- Every remaining `dispute` room gained named scholars with `stance` and a `shifts` block; the passages engine renders both.
+- Homer gained a Neoanalysis card and a third topic on the Trojan War; the Fall of Rome gained Goffart, Wickham, and Halsall; Investiture gained Blumenthal, Cowdrey/Robinson, Reuter, and Althoff.
 
 ## How to resume
 

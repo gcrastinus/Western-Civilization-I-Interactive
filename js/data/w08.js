@@ -100,12 +100,12 @@ WC1.registerWeek({
             { t: 0, title: 'The dictator’s policy', html: '<p>Fabius had refused a decisive field. It was unpopular. It was also a way not to feed Hannibal a packed army.</p>' },
             { t: 1, title: 'The cost of delay', html: '<p>Allies peel. A captain who will not fight looks like a city that cannot protect its socii. Cannae is what happens when that political bill comes due. Delay was available. It was not free.</p>' }
           ],
-          verdict: 'The “obvious” Fabian alternative is obvious after the body-count. Before the body-count it was a policy that could lose Italy without a battle.'
+          verdict: 'Delay looks wise once the dead are counted. Before they were counted it was a policy that could lose Italy without a battle being fought at all.'
         },
         {
           title: 'If Hannibal had marched on Rome',
           beats: [
-            { t: 0, title: 'The obvious sequel', html: '<p>Maharbal, in Livy’s story, says Hannibal knows how to win and not how to use a victory. A march on the city is the dream of every later school map.</p>' },
+            { t: 0, title: 'The sequel every map wants', html: '<p>Maharbal, in Livy’s story, says Hannibal knows how to win and not how to use a victory. A march on the city is the dream of every later school map.</p>' },
             { t: 1, title: 'What a siege is', html: '<p>Rome has walls, other armies, and a road-system. Hannibal has no siege train worth the name and a coalition of Italians who have not all come over. A march might have panicked a Senate. It might also have broken the Carthaginian army on stone.</p>' }
           ],
           verdict: 'The unused march is the most famous counterfactual in Roman history because it flatters both sides: Roman toughness, Carthaginian missed destiny. A siege of Rome in 216 was not Salamis. It was a different instrument Hannibal did not have.'
@@ -121,17 +121,42 @@ WC1.registerWeek({
       blurb: 'Consuls, Senate, people — a Greek theory of why Cannae was not the end.',
       positions: [
         {
+          stance: 'opposing',
           scholar: 'Polybius',
           work: 'Histories VI',
           summary: 'Rome mixes kingship (consuls), aristocracy (Senate), and democracy (people) so that each checks the others. The test is disaster: a mixed body can take a Cannae and continue.',
           html: '<p>Polybius is a Greek hostage who watched Rome swallow his world. Book VI is not a naive hymn to Rome. It is an attempt to name a machine: consuls, Senate, and people checking one another, so that a disaster like Cannae does not end the state. The question is whether that machine really is the constitution of offices, or whether what survived was the alliance-system of Italian socii and the census of farms that could still raise new legions.</p>'
         },
         {
+          stance: 'opposing',
           scholar: 'A material reply',
           summary: 'What survived Cannae was Italian manpower, a Senate that would not treat, and a capacity to make new legions. “Mixture” is a later diagram of that stubbornness.',
           html: '<p>Polybius’s three parts — consuls, Senate, people — are real offices. They are not, by themselves, why an Italian ally from Campania still sends men after 216. Roads, colonies, and the fear that Hannibal would be a worse master than Rome are also causes. “Mixture” may be a later diagram of that stubbornness, not the thing that produced it.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Fergus Millar',
+          years: '1984\u201398',
+          work: 'The Crowd in Rome in the Late Republic',
+          summary: 'Take the democratic element seriously. Laws were passed by assemblies of citizens standing in a real square, after speeches meant to persuade them.',
+          html: '<p>Millar asks where a Roman law actually came from, and the answer is a vote in the Forum. Candidates canvassed; tribunes legislated; orators addressed a crowd that could shout them down. If that is not democracy it is at least a politics in which the people are an audience who must be won \u2014 and the older picture of a closed aristocracy managing a formality does not fit the speeches that survive.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Karl-Joachim H\u00f6lkeskamp',
+          years: '1995\u20132010',
+          work: 'Reconstructing the Roman Republic',
+          summary: 'The forms were public and the substance aristocratic: government by consensus inside a nobility, staged in rituals the people watched and joined.',
+          html: '<p>H\u00f6lkeskamp answers Millar with the political culture around the vote: a nobility of a few families, funerals with ancestor masks, a Senate that set the agenda, and assemblies whose voting units were weighted so that the front of the battle line weighed most. Henrik Mouritsen adds the physical argument \u2014 the voting space could hold only a fraction of the citizens, and most of them lived too far away to come. Consensus, not majority, is the operative word.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Where the quarrel sits',
+          summary: 'Polybius wrote the first version of this argument, and both modern sides are still playing on his board.',
+          html: '<p>Millar wants the popular element restored to a picture that had become all Senate; H\u00f6lkeskamp wants the aristocratic element restored to Millar\u2019s. Neither denies that consuls commanded, that the Senate deliberated, or that the people voted. They disagree about which of the three was deciding \u2014 which is the question Book VI was written to answer, with the difference that Polybius had watched it and they have inscriptions.</p>'
         }
       ],
+      shifts: '<p>For most of the twentieth century the Republic was read through prosopography: count the families, trace the marriages, and the assemblies become theatre. Millar broke that in the 1980s by taking the crowd seriously. H\u00f6lkeskamp and Mouritsen answered with the architecture of the voting place and the culture of deference around it. The result is not a verdict but a better question: not whether Rome was democratic, but what a Roman politician actually had to do to get a law passed.</p>',
       ask: 'If you had to keep one sentence of Polybius after Cannae, would it be about mixture, or about a people that can be levied again?'
     },
     {

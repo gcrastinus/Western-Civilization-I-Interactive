@@ -75,16 +75,51 @@ WC1.registerWeek({
       blurb: 'Vision, policy, or a new public of bishops?',
       positions: [
         {
+          stance: 'opposing',
           scholar: 'A religious reading',
           summary: 'A vision before the Milvian Bridge, a man who takes a God as his patron, later baptism. The empire acquires a cult that cannot be one among others.',
           html: '<p>Take the sources’ God seriously enough to argue with them. Eusebius is a courtier writing for Constantine; that does not make the conversion a cartoon or a lie. A princeps who prays is still a princeps: the vision, if it happened, does not stop him from being a ruler who needs armies, taxes, and a public cult that can hold the empire together.</p>'
         },
         {
+          stance: 'opposing',
           scholar: 'A political reading',
           summary: 'Christianity was already a network of cities, bishops, and a people who would die rather than sacrifice. Constantine backs a public that can be a partner of the throne.',
           html: '<p>The tetrarchy (Diocletian’s four-emperor system) had already made the empire a theology of companions of Jupiter and Hercules: rulers with divine patrons. Constantine changes the names and the personnel. The material he can use is an urban church — bishops in cities, a people who would die rather than sacrifice — that can be convened at Nicaea (325) as a partner of the throne. On this view the conversion is also a policy: backing a public that can travel with the empire.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Jacob Burckhardt',
+          years: '1853',
+          work: 'The Age of Constantine the Great',
+          summary: 'A calculating politician without religion, who used a church as he would have used anything else.',
+          html: '<p>Burckhardt\u2019s Constantine is a man of genius and no faith, and Eusebius is his propagandist. The portrait dominated the nineteenth century and is still the default suspicion when a student first meets the vision. Its weakness is that it explains the awkward evidence \u2014 the letters, the money, the years spent on a doctrinal quarrel about a Greek word \u2014 by assuming in advance that no ruler can mean it.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Norman H. Baynes and A. H. M. Jones',
+          years: '1930\u201348',
+          work: 'Constantine the Great and the Christian Church',
+          summary: 'Take the sincerity seriously. On the evidence of his own letters he believed he had been given a commission, and it was politically inconvenient as often as not.',
+          html: '<p>Baynes argued from the documents Constantine issued rather than from Eusebius\u2019s panegyric, and found a man convinced that the God of the Christians had granted him victory and would hold him accountable for the Church\u2019s unity. A. H. M. Jones made the same case in plainer terms: in 312 the Christians were a small minority in the West, so backing them was not the shrewd move. Conversion as calculation has to explain why the calculation looks bad.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Timothy D. Barnes',
+          years: '1981\u20132011',
+          work: 'Constantine and Eusebius',
+          summary: 'The documents can be dated and read. He was a Christian from 312, and the empire\u2019s Christianization was quicker and more deliberate than the older picture allowed.',
+          html: '<p>Barnes rebuilt the chronology from laws, inscriptions, and the surviving imperial letters, and used it against the idea of a slow, hedged, half-pagan reign. The programme is visible early: privileges for clergy, the settlement of the Donatist quarrel, a council summoned by an emperor. Complementary because it supplies the documentary spine that both the religious and the political readings need before either can argue.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'H. A. Drake',
+          years: '2000',
+          work: 'Constantine and the Bishops',
+          summary: 'The interesting question is not what he believed but what kind of politics he was building: a coalition, with bishops as partners, held together by a policy of consensus.',
+          html: '<p>Drake reads the reign as an attempt to construct a broad settlement in which Christians and others could both be governed, and reads the later intolerance as the failure of that project rather than its intention. Complementary because it dissolves the false pair the room began with: a man may pray and calculate in the same act, and the historian\u2019s job is to describe the coalition he was assembling.</p>'
         }
       ],
+      shifts: '<p>Burckhardt made the cynical reading respectable; Baynes and Jones made sincerity arguable again by going to Constantine\u2019s own letters; Barnes fixed the chronology so that the debate had dates; Drake changed the question from belief to coalition-building. The old alternative \u2014 vision or policy \u2014 has largely dissolved, and what remains is a harder question about what an emperor could and could not do with a church he did not control.</p>',
       ask: 'If the vision had not happened, what in the empire’s structure still makes a Christian princeps thinkable by 312?'
     },
     {

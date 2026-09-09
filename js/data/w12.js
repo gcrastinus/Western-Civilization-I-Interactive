@@ -76,16 +76,39 @@ WC1.registerWeek({
       blurb: 'Who made an emperor — a pope in St Peter’s, or a Frankish fact?',
       positions: [
         {
+          stance: 'opposing',
           scholar: 'The papal story',
           summary: 'Leo III crowns a protector. The keys make a western emperor. Later Gregorians will remember this as a precedent of making and unmaking.',
-          html: '<p>A coronation in St Peter’s is not a decoration added to a king who already had everything. It is a public act in a particular church, performed by a pope. Later Gregorians will remember 800 as a precedent: if a pope can make a western emperor, perhaps he can also unmake one. Investiture will ask whether that act can run in reverse.</p>'
+          html: '<p>Do not read the coronation as an ornament added to a king who already had everything. It was a public act, in a particular church, performed by a pope. Later Gregorians will remember 800 as a precedent: if a pope can make a western emperor, perhaps he can also unmake one. Investiture will ask whether that act can run in reverse.</p>'
         },
         {
+          stance: 'opposing',
           scholar: 'The Frankish story',
           summary: 'Charles already ruled a hegemony. The title names a fact. Einhard’s embarrassment about the coronation (if it is embarrassment) is a king’s dislike of seeming to owe a priest.',
           html: '<p>Without the Frankish army and the Saxon wars, the pope is a bishop in a dangerous city who needs a protector. Einhard’s embarrassment about the coronation (if it is embarrassment) is a king’s dislike of seeming to owe a priest the title he already held in fact. The dispute is not whether 800 happened. It is which office was the efficient cause of the other: did the pope make an emperor, or did a Frankish hegemony take a name?</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Robert Folz',
+          work: 'The Coronation of Charlemagne',
+          summary: 'Ask what the sources are for, not only what they say. Four early accounts describe the day, and each was written to serve a different claim about it.',
+          html: '<p>Folz set the Frankish annals, Einhard, the papal <em>Liber Pontificalis</em>, and the Byzantine notice side by side and showed that the disagreement is the evidence. Einhard\u2019s famous line \u2014 that Charles would not have entered the church had he known \u2014 is a Frankish court\u2019s claim about who owed what to whom, written a generation later by a man with a case. The event is not obscure. It is contested by the people who reported it.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Janet L. Nelson',
+          work: 'kingship, ritual, and the Frankish court',
+          summary: 'Read the coronation as a ritual with participants: acclamation by a crowd, a prostration, a title Byzantium would have to answer.',
+          html: '<p>Nelson\u2019s method is to watch what was actually done in the church \u2014 who acclaimed, who bowed, in what order \u2014 because a ritual is a negotiation that leaves a record. The Roman crowd\u2019s acclamation is not decoration; it is the form by which Romans made emperors. And the title created a diplomatic problem with Constantinople that took twelve years to settle, which is a fair measure of how seriously contemporaries took it.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Roger Collins and Rosamond McKitterick',
+          summary: 'Beware the retrospect. Later popes needed 800 to be a precedent; the annals were themselves rewritten at court.',
+          html: '<p>Collins reads the coronation as an improvisation in a bad year for Leo III, who had been assaulted in the streets of Rome and needed a protector to clear him. McKitterick shows how thoroughly the Royal Frankish Annals were revised at the court, so that the record of the reign is itself a work of the reign. On this view 800 became a constitutional turning point in the eleventh century, when Gregorians needed it to be one \u2014 which is precisely the use week 14 will examine.</p>'
         }
       ],
+      shifts: '<p>Nineteenth-century scholarship fought over 800 as a title deed \u2014 German and French historians each wanting Charlemagne \u2014 and the papal and Frankish stories are the residue of that fight. Folz turned attention to the four disagreeing sources; Nelson to what was performed; Collins and McKitterick to the accident of the year and the editing of the record. What survives all of it is the fact the next quarrel needs: a pope had put a crown on a Frankish head, and someone would eventually ask whether the act could be run backwards.</p>',
       ask: 'Keep this quarrel until week 14. What in 800 already contains Canossa (a priest claiming to make and unmake kings), and what in 800 is still a world where king and priest eat at one table as allies?'
     },
     {

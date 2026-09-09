@@ -67,7 +67,7 @@ WC1.registerWeek({
             { t: 0, title: 'Starvation as a weapon', html: '<p>Pompey could try to win by hunger in a land of his supplies. Labienus and the nobles want a field. A coalition of dignitas does not like to look like a siege engineer.</p>' },
             { t: 1, title: 'Caesar’s clock', html: '<p>Caesar’s veterans need a decision; his politics in Italy need a victory that looks like fate. Delay favors the man with the sea and the east — if his coalition will bear delay. It would not.</p>' }
           ],
-          verdict: 'The “obvious” Fabian sequel is available to a commander who is not also a senatorial cause. Pompey was both. Pharsalus is that double office failing at once.'
+          verdict: 'Starving Caesar out was available to a commander who was not also a senatorial cause. Pompey was both, and Pharsalus is that double office failing at once.'
         },
         {
           title: 'If the fourth line had not been there',
@@ -88,16 +88,51 @@ WC1.registerWeek({
       blurb: 'Ambition, agrarian bill, or a constitution that could not command its own armies?',
       positions: [
         {
+          stance: 'opposing',
           scholar: 'A moral-political reading',
           summary: 'Sulla’s example, Caesar’s dignity, Cato’s rigidity: men who will not be second. The fall is a failure of character in a ruling class.',
           html: '<p>Cicero’s letters are full of this reading: Sulla showed that a captain could take the city; Caesar would not be second; Cato would not yield. A republic of colleagues requires men who can bear to be colleagues rather than indispensable. That is not nothing. The question is whether failure of character is a sufficient cause of the Republic’s end, or only a description of the last act — the men who happened to be there when the machine had already changed.</p>'
         },
         {
+          stance: 'opposing',
           scholar: 'A material reading',
           summary: 'The levy of the un-propertied, overseas commands of many years, land for veterans, a city that can no longer feed its politics from a census of Italian farms alone.',
           html: '<p>Marius enrolled men without property; the Italian allies (socii) fought for a share; the provinces became a fortune a captain could tap. The army becomes a following of a man, not a levy of the census. Pharsalus is two such followings meeting in Thessaly. The mixed constitution Polybius admired had no method for demobilizing a conqueror of Gaul and sending him home as a private citizen.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Ronald Syme',
+          years: '1939',
+          work: 'The Roman Revolution',
+          summary: 'Not a constitution failing but a faction winning. Behind the slogans stand marriages, money, and a party that captured the state and kept it.',
+          html: '<p>Syme wrote in 1939, and the book knows what it is doing. He replaces ideals with a prosopography: who married whose sister, who owed whom, which Italian towns supplied the new men. The Republic on this reading was already an oligarchy, so what died in the 40s was not liberty but the monopoly of one set of families. It is a corrosive book, and it made the moral reading impossible to hold naively again.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'P. A. Brunt',
+          years: '1962\u201388',
+          work: 'Italian Manpower; The Fall of the Roman Republic',
+          summary: 'The grievances were real: land, debt, and the citizenship. The soldiers followed captains because the state would not settle them.',
+          html: '<p>Brunt counted the men. Long service abroad emptied farms; the veterans had to be given land, and only a commander with political weight could get it for them; so a soldier\u2019s interest and a captain\u2019s interest fused. Add the Italian allies who fought a war in the 90s to become citizens. Complementary to the material reading and a correction to Syme: the factions had followers, and the followers had reasons of their own.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Erich S. Gruen',
+          years: '1974',
+          work: 'The Last Generation of the Roman Republic',
+          summary: 'The Republic was not dying. Its institutions were working, roughly, until a civil war destroyed them \u2014 and civil war was a contingency, not a diagnosis.',
+          html: '<p>Gruen reads the 60s and 50s as ordinary, quarrelsome republican politics: courts busy, elections contested, violence real but not terminal. The decisive thing is the war itself, which no one in 60 BC could have described as inevitable. If he is right, the search for a long-term cause is a habit imposed by knowing the ending \u2014 which is a warning worth carrying into every counterfactual in this app.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Harriet Flower and Robert Morstein-Marx',
+          years: '2010\u2013',
+          work: 'periodization; the political culture',
+          summary: 'There was no single Republic to fall. There were several successive republics, and what ends in the 40s is the last of them.',
+          html: '<p>Flower proposes cutting the four and a half centuries into distinct constitutional periods, so that Sulla\u2019s settlement founds a different republic from the one Gracchus lived in. Morstein-Marx works on what was said from the rostra and what a crowd would accept. Complementary because they change the unit of analysis: instead of asking why the Republic fell, ask which republic you mean and what its own participants thought they were preserving.</p>'
         }
       ],
+      shifts: '<p>Cicero\u2019s account \u2014 good men, bad men \u2014 held for eighteen centuries. Mommsen made it a drama of great figures; Syme made it a party machine; Brunt gave the soldiers and the Italians their own interests; Gruen denied that anything had to fall at all; and the present generation has broken the single Republic into several. The material fact underneath all of them is unchanged and is what Pharsalus shows: two private followings, paid and settled by their captains, meeting in a field.</p>',
       ask: 'If you must pick a first cause — a man, a law, or an army’s pay — which one makes the other two intelligible?'
     },
     {

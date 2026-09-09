@@ -59,10 +59,11 @@ WC1.registerWeek({
     {
       id: 'civilization',
       title: 'What “civilization” names',
-      nav: 'Dispute: civilization',
-      kind: 'dispute',
-      type: 'dispute',
-      blurb: 'Does the word name a city, a kind of manners, or a ranking of peoples?',
+      nav: 'Contest: civilization',
+      kind: 'contest',
+      type: 'contest',
+      contestId: 'civilization',
+      blurb: 'A city, a rank, or a course with a birthday: the quarrel over the word this syllabus is named for.',
       question: {
         id: 'w01-q-civ',
         kind: 'mc',
@@ -73,25 +74,7 @@ WC1.registerWeek({
           { id: 'c', text: 'Whatever Europeans later decided to inherit', correct: false }
         ],
         reveal: '<p>“Civilization” has been used as a compliment, as if some peoples had arrived and others had not. We still need a word for a large farming society that can teach, tax, and remember across generations. Use it that way — as a description of scale and of arts — and then argue about particular cases. Do not use it as praise.</p>'
-      },
-      positions: [
-        {
-          scholar: 'A civic sense',
-          summary: 'Civilization names the city and the arts of living together at a large scale: walls, stored food, specialists, a law that can be cited in public.',
-          html: '<p>Start from the Latin <em>civis</em>, a fellow of a city. On this view, “civilization” names a form of life in which strangers can be treated as fellows in a public: a market, a court, a temple, a wall. Homer’s warrior camps are not yet that. Uruk is trying to be. Rome will later make a science of it. The risk of this meaning is that foragers — small groups without cities — look like unfinished people. They are not unfinished. They live a good life at a different scale, with different arts of memory and command.</p>'
-        },
-        {
-          scholar: 'A moralizing sense',
-          summary: 'In the nineteenth century, “civilization” was often used as if human societies stood on a ladder, with “savagery” at the bottom and Europe at the top.',
-          html: '<p>That usage is not a neutral description. It is a political claim: some peoples are complete, and others are earlier versions of them. Ranked that way, “civilization” already decides who counts as fully human. This course does not rank peoples that way. When the syllabus speaks of “the shape of the whole past,” it means the large structures of geography and political community — not a race among cultures to see who arrived first. If you find you cannot say “civilization” without implying that ladder, say “agrarian city-culture” instead. An awkward phrase is better than a word that has already delivered a verdict.</p>'
-        },
-        {
-          scholar: 'A civilizational spine',
-          summary: 'This syllabus still speaks of Western civilization as a historical inheritance of city, nature, and law, running through Greece and Rome.',
-          html: '<p>That is a claim about what later Latin and vernacular Europe inherited and kept arguing with — city life, inquiry into nature, a law that can outlive a king. It is not a claim that Greeks and Romans were better souls than Egyptians or Chinese. Egypt and China are civilizations in the civic sense: large agrarian publics with writing, law, and cult. They are not the spine of <em>this</em> sequence, which is built for a course that ends at Investiture. If that distinction starts to sound like a sneer, open <em>The One and the Many</em> once, then come back to the evidence.</p>'
-        }
-      ],
-      ask: 'When you hear “Western civilization” this term, which of the three uses is actually in the sentence — a city-form, a ranking, or an inheritance — and which one did you add without noticing?'
+      }
     },
     {
       id: 'connections',

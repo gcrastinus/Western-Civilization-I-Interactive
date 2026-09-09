@@ -54,9 +54,33 @@ WC1.contests.fall = {
           work: 'Mohammed and Charlemagne',
           claim: 'The Mediterranean economy of late antiquity survives the German kingdoms. It breaks when Islam takes the southern shore. Charlemagne’s Europe is a consequence of that break.',
           evidence: '<p>Papyrus, gold, spices, Syrian merchants in Gaul — then their absence. The thesis has been battered on dates and archaeology; it remains the sharpest way to ask whether 476 is even the right year.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Walter Goffart',
+          years: '1980\u20132006',
+          work: 'Barbarians and Romans; Barbarian Tides',
+          claim: 'There was no invasion to speak of. Barbarian groups were accommodated inside the empire by an administrative device \u2014 shares of tax revenue rather than seizures of land \u2014 and the migration of the peoples is a modern myth built on late texts.',
+          evidence: '<p>Goffart reads the settlement laws as fiscal instruments: what a Gothic or Burgundian follower received was an assignment of taxes, so a Roman landowner could keep his estate and the newcomer could be paid. He is equally severe on the ethnography, treating Jordanes and the rest as literary constructions rather than tribal memory. If he is right, the West was not conquered; it hired, and then could not go on paying, the men it had hired.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Chris Wickham',
+          years: '2005',
+          work: 'Framing the Early Middle Ages',
+          claim: 'Ask the question region by region, and in things that can be counted. Where the state stopped taxing, aristocracies grew poorer and exchange simplified \u2014 unevenly, and at different dates.',
+          evidence: '<p>Wickham compares the whole Mediterranean and beyond: pottery distributions, rural settlement, the fate of the tax system, the wealth of local elites. Britain falls furthest and fastest; Egypt and Syria continue; Italy and Gaul lie between. Complementary to Ward-Perkins on measurement, and a rebuke to any answer that treats the West as one place with one date.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Guy Halsall',
+          years: '2007',
+          work: 'Barbarian Migrations and the Roman West',
+          claim: 'The empire\u2019s internal crisis came first. Barbarian identity was made in the process \u2014 by service, by armies, by frontier politics \u2014 rather than carried in from outside.',
+          evidence: '<p>Halsall inverts the usual order: civil wars, a shrinking tax base, and a frontier aristocracy whose careers depended on Roman service are the setting in which Goths and Franks become first the names of armies and then the names of peoples. Complementary because it says what Heather\u2019s coalitions were made of, and opposing to any account in which whole nations arrive out of the forest.</p>'
         }
       ],
-      shifts: '<p>Gibbon’s plot (virtue, then Church, then barbarians) was a moral history of a class. Archaeology and the eastern sources made “the fall” a regional fact. Late antiquity named a culture that had been treated as a vestibule. The present quarrel is whether the word “civilization” should follow the pots or the bishops.</p>',
+      shifts: '<p>A large European research programme in the 1990s (the Transformation of the Roman World project) institutionalized continuity as the working assumption; Ward-Perkins and Heather both published against it in 2005; Goffart, Wickham, and Halsall then moved the argument from words to measurements. Gibbon’s plot (virtue, then Church, then barbarians) was a moral history of a class. Archaeology and the eastern sources made “the fall” a regional fact. Late antiquity named a culture that had been treated as a vestibule. The present quarrel is whether the word “civilization” should follow the pots or the bishops.</p>',
       ask: 'If you must choose one measure — a city’s bishop, a countryside’s pottery, or a Mediterranean of ships — which would you let name the age, and what does that choice hide?'
     },
     {

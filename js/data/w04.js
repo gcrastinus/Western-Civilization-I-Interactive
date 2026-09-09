@@ -63,7 +63,7 @@ WC1.registerWeek({
       },
       steps: [
         { title: 'The panoply', html: '<p>Shield (the hollow Argive aspis), spear, helmet, greaves. The shield is large because it is meant to cover the man to your left as well as yourself. A hoplite is already a relation: the line works only if the neighbor holds.</p>', rows: 1, overlap: 4 },
-        { title: 'Depth', html: '<p>Eight men is a common depth in later writing; it varies. The rear ranks push and replace the fallen. This is not a duel of champions. It is a weight of citizens pressing together.</p>', rows: 8, overlap: 10 },
+        { title: 'Depth', html: '<p>Eight men is a common depth in later writing; it varies. The rear ranks push and replace the fallen. No duel of champions here — a weight of citizens pressing together.</p>', rows: 8, overlap: 10 },
         { title: 'Who cannot be in it', html: '<p>A man too poor for bronze, a woman, a slave, a foreigner. The phalanx is an image of the citizen body because it is also a census of who may not stand there. Sparta’s mess-tables are one extreme of that fact (only the equals eat and fight). Athens will later row a different census to sea: poorer citizens as oarsmen.</p>', rows: 8, overlap: 12 }
       ]
     },
@@ -142,7 +142,7 @@ WC1.registerWeek({
             { t: 0, title: 'The cautious city', html: '<p>A delayed battle might have added a Spartan right. It might also have given the landing time to move on Athens, or to be reinforced.</p>' },
             { t: 1, title: 'The political cost', html: '<p>An Athenian victory with Sparta present is a different story in the assembly. Marathon’s later use — we saved ourselves — depends on who was not there. Waiting was available. It would have changed the myth as much as the field.</p>' }
           ],
-          verdict: 'The “obvious” wait for the best infantry in Greece collides with time, the unguarded city, and the kind of glory a demos wanted to own.'
+          verdict: 'Waiting for the best infantry in Greece looks prudent until you count what it costs: time, an unguarded city, and the kind of glory a demos wanted to own alone.'
         },
         {
           title: 'If the center had broken through',
@@ -210,7 +210,7 @@ WC1.registerWeek({
             { t: 0, title: 'The Peloponnesian plan', html: '<p>A wall at the Isthmus, ships in more open water. Sparta’s good life is a land army. Athens would be a refugee people watching its countryside burn without a decision at sea.</p>' },
             { t: 1, title: 'Numbers in the open', html: '<p>The Persian fleet’s advantage grows with sea-room. The Isthmus plan protects a peninsula and abandons the logic of the Athenian hulls. It is a coherent Peloponnesian policy. It is not a Greek one.</p>' }
           ],
-          verdict: 'The “obvious” defensive line is obvious for Sparta. Salamis is what you do if the city you are saving is a fleet.'
+          verdict: 'A wall at the Isthmus is the right answer for Sparta and the wrong one for Athens. Salamis is what you do when the city you are saving is a fleet.'
         },
         {
           title: 'If Themistocles had not packed the strait',

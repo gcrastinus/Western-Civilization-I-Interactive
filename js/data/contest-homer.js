@@ -45,6 +45,13 @@ WC1.contests.homer = {
           work: 'The Best of the Achaeans; later evolutionary essays',
           claim: 'A Panhellenic tradition crystallizes over time. “Homer” is an institution of song before it is a book.',
           evidence: '<p>Festival performance, the Peisistratid recension as a political act at Athens, the slow fixation of a text. Complementary to Parry because it adds history of communities to the technique of verse-making.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Neoanalysis',
+          work: 'Kakridis, Kullmann, and after',
+          claim: 'The Iliad we have is reworking specific earlier songs \u2014 above all a song of the death of Achilles \u2014 and the seams show.',
+          evidence: '<p>The exhibit is Patroclus: he dies in Achilles\u2019 armour, is mourned with the honours owed to Achilles, and receives a funeral that reads as a transposed version of a scene the poem never narrates. Neoanalysis takes such transpositions as evidence of a poet using older material with intent, which is a third thing between the analysts\u2019 patchwork and the unitarians\u2019 single mind: a maker who inherits stories, not only formulas.</p>'
         }
       ],
       shifts: '<p>Wolf made the question modern by making writing the problem. The analysts made it a geology of books. Parry made it a technique of singers. Later work has to live with all three: there are formulas; there is some kind of design; there was a moment when a text could be cited as a text. No one piece of evidence now closes the file.</p>',
@@ -77,6 +84,46 @@ WC1.contests.homer = {
       ],
       shifts: '<p>The alphabet is a material cause. So is a festival that pays rhapsodes. So is a library. The Homeric Question, treated this way, is a question about institutions, not only about genius.</p>',
       ask: 'What would count as evidence that a particular book of the Odyssey was already stable in 500 BC? Vase-paintings? A quotation? A law about recitation? Say which, and why it would not settle the rest.'
+    },
+    {
+      id: 'troy',
+      title: 'Was there a Trojan War?',
+      lede: 'A hill in north-western Anatolia, a Hittite archive, and a poem four centuries later.',
+      tension: 'The poems remember something. Whether what they remember is a war, a raid, a place-name, or a way of talking about heroes is a different question at every layer of the mound.',
+      views: [
+        {
+          stance: 'opposing',
+          scholar: 'Moses Finley',
+          years: '1954',
+          work: 'The World of Odysseus',
+          claim: 'The society in the poems is not Mycenaean. It is a later, poorer world of chiefs and gift-exchange \u2014 roughly the tenth to ninth centuries \u2014 and the war is not usable as history.',
+          evidence: '<p>No palace bureaucracy, no scribes, no Linear B world of ration lists; instead households, guest-friendship, and prestige goods. Finley pointed out that the poems know cremation, iron in similes, and a political order the tablets do not show. His conclusion was blunt: the Trojan War belongs to literature, and the historian who wants a date is asking the poem for something it does not have.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Manfred Korfmann and Frank Kolb',
+          years: '1988\u20132004',
+          work: 'the Tübingen quarrel over Troia VI/VIIa',
+          claim: 'Korfmann: the excavations show a substantial lower town with a defensive ditch, a real regional centre worth attacking. Kolb: a modest hill fort, dressed up for a museum exhibition.',
+          evidence: '<p>Korfmann\u2019s magnetometry found a ditch enclosing a lower settlement far larger than Schliemann\u2019s citadel, and a destruction layer at Troia VIIa. Kolb replied in public and in print that the population estimates were inflated and that Troy was neither a city nor a trading power. The exchange, conducted partly in German newspapers, is a useful lesson in how excavation, funding, and publicity interact.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'The Hittite archives',
+          work: 'Wilusa, Ahhiyawa, and the Tawagalawa letter',
+          claim: 'Bronze Age documents from Hattusa name a place that is probably Troy and a power across the sea that is probably the Mycenaean Greeks, and they name conflict between them.',
+          evidence: '<p>Wilusa corresponds well to Ilios; Ahhiyawa to the Achaeans. Hittite letters record treaties with Wilusa, a king named Alaksandu, and repeated trouble in the west stirred up by Ahhiyawa. This is not the Iliad; it is a diplomatic file that shows the geography of the poem was real and contested. Complementary because it grounds the setting without confirming a single ten-year war.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Joachim Latacz and the cautious middle',
+          years: '2001\u2013',
+          claim: 'Take the setting as historical and the plot as tradition. A conflict, or a series of them, over a real place has been worked by four centuries of song into one great story.',
+          evidence: '<p>Latacz combines the Hittite evidence, the archaeology, and the poems\u2019 own preservation of Bronze Age details \u2014 a boar\u2019s-tusk helmet, a tower-shield, place-names in the Catalogue of Ships that had ceased to matter. The claim is modest and hard to refute: oral tradition transmits some hard particulars over long distances in time while remaking everything around them.</p>'
+        }
+      ],
+      shifts: '<p>Schliemann dug because he trusted the poem, and found a mound with many cities in it. Ventris\u2019s decipherment of Linear B in 1952 then produced a Mycenaean world that looked nothing like Homer\u2019s, which is what allowed Finley to sever the two. The Hittite tablets and Korfmann\u2019s lower town have since restored a plausible setting without restoring the plot. What the quarrel has taught is a distinction worth having in every week of this course: the reliability of a setting and the reliability of a story are separate questions.</p>',
+      ask: 'The poems know a boar\u2019s-tusk helmet that had not been worn for centuries, and they do not know writing. What does that combination tell you about what an oral tradition keeps and what it drops?'
     }
   ]
 };

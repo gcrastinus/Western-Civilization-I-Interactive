@@ -41,6 +41,27 @@ WC1.contests.investiture = {
           scholar: 'Walter Ullmann / Brian Tierney',
           claim: 'Ullmann: a hierocratic legal theory descending from the keys. Tierney: constitutional thought, including later conciliarism, is born from the same legal materials — the Church as a body that can have law against a head.',
           evidence: '<p>Canonistic texts, Gelasius, the later uses of the quarrel. Complementary because they explain why lawyers, not only saints, could inhabit this fight. The twelfth century will inherit a habit of distinguishing forums.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Uta-Renate Blumenthal',
+          work: 'The Investiture Controversy',
+          claim: 'The quarrel is longer than Gregory and larger than Germany: it runs from the eleventh-century reform circles to 1122, and England and France settle it earlier and more quietly than the Empire does.',
+          evidence: '<p>Blumenthal puts the papal reform in its Italian and monastic setting and then follows the argument across the West. England had its own version, closed at Bec and Westminster in 1107 with the same split of symbols that Worms would use fifteen years later; France settled with less noise still. That the Empire fought longest is a fact about German politics, not about the theology.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'H. E. J. Cowdrey and I. S. Robinson',
+          work: 'Gregory VII; the papal reform and its enemies',
+          claim: 'Gregory is better understood from his letters than from the dicta: a monastic reformer with an exalted sense of St Peter\u2019s authority, improvising against events.',
+          evidence: '<p>Cowdrey\u2019s reading of the register finds a man of intense and specific piety who thought he acted as Peter\u2019s deputy and who was often surprised by what followed. Robinson traces the pamphlet war and the papal party\u2019s organization, which is where the theory in the Dictatus actually did its work. Complementary because it converts a constitution into a career, and shows the improvisation the documents conceal.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Timothy Reuter',
+          work: 'the German politics under the quarrel',
+          claim: 'Read from Germany, this is chiefly a crisis of the Salian monarchy \u2014 Saxony, the princes, and a king trying to govern without a tax system \u2014 into which the pope is drawn.',
+          evidence: '<p>Reuter insisted that German kingship worked by consensus among great men, not by administration, and that Henry IV\u2019s trouble began with Saxon revolt and princely resentment before Gregory bound him. On this reading the Dictatus gave the princes a weapon they already wanted. The excommunication mattered because it released men from an oath they were looking for a reason to break.</p>'
         }
       ],
       shifts: '<p>Older Protestant and Catholic narratives made Gregory a hero or a tyrant. Mid-twentieth-century work (Tellenbach, Southern, later Blumenthal) put reform, land, and law back together. Read Dictatus, Canossa, and Worms as three different instruments: a theory, a ritual, a treaty.</p>',
@@ -69,6 +90,20 @@ WC1.contests.investiture = {
           scholar: 'A sacramental reading',
           claim: 'Gregory the priest could not refuse a penitent who stood in the form. The office bound him. That is not naïveté; it is what a forum of penance is.',
           evidence: '<p>The distinction between the inner forum and the political coalition. Complementary to both memories: it explains why each could claim the event.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Gerd Althoff',
+          work: 'ritual and the rules of the game (Spielregeln)',
+          claim: 'Canossa was not a humiliation that happened to Henry; it was a form both men knew, in which a penitent submits and is therefore obliged to be received.',
+          evidence: '<p>Althoff\u2019s work on <em>deditio</em> \u2014 the ritual surrender \u2014 shows a whole grammar of medieval politics: a public submission, often negotiated beforehand through intermediaries, which restores the submitting party at the cost of a scene. Matilda and Abbot Hugh of Cluny are those intermediaries here. On this account the three days in the snow are neither a papal triumph nor a royal trick but a procedure, and Henry used it correctly.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'The nineteenth-century afterlife',
+          work: 'Bismarck, 1872',
+          claim: '\u201cWe shall not go to Canossa\u201d made the event a national wound, and much of the heat in later scholarship comes from that sentence rather than from 1077.',
+          evidence: '<p>Bismarck said it in the Reichstag during the Kulturkampf, and the phrase entered German. It is worth knowing because it explains why German medievalists spent a century arguing about a winter in the Apennines with unusual intensity, and why a student meeting Canossa in an English textbook is often meeting Bismarck\u2019s version of it.</p>'
         }
       ],
       shifts: '<p>Treat Canossa as you would a court: who had standing, what act was performed, what it did not decide.</p>',

@@ -276,6 +276,35 @@ WC1.renderReview = function (mount) {
   if (rev && (rev.passages || rev.positions)) WC1.engines.passages(rev, mount);
 };
 
+WC1.applyNavFilter = function () {
+  const find = document.getElementById('find');
+  const q = (find && find.value ? find.value : '').toLowerCase();
+  document.querySelectorAll('#nav-list a').forEach(function (a) {
+    a.style.display = !q || a.textContent.toLowerCase().indexOf(q) !== -1 ? '' : 'none';
+  });
+};
+
+WC1.titleFor = function (route) {
+  const base = 'Western Civilization I';
+  if (route.view === 'overlay') {
+    const o = WC1.overlay && WC1.overlay[route.room];
+    return (o ? o.title : 'Overlay') + ' \u00b7 ' + base;
+  }
+  if (route.view === 'intro') {
+    if (route.room === 'home') return base;
+    const r = ((WC1.intro && WC1.intro.rooms) || []).find(function (x) { return x.id === route.room; });
+    return (r ? r.title : 'Introduction') + ' \u00b7 ' + base;
+  }
+  if (route.view === 'week') {
+    const w = WC1.weeks[route.week];
+    if (!w) return base;
+    if (route.room === 'home') return w.title + ' \u00b7 ' + base;
+    const room = WC1.findRoom(w, route.room);
+    return (room ? room.title + ' \u00b7 ' + w.title : w.title) + ' \u00b7 ' + base;
+  }
+  return base;
+};
+
 WC1.render = function () {
   const route = WC1.parseRoute();
   const main = document.getElementById('main');
@@ -311,9 +340,9 @@ WC1.render = function () {
   }
 
   WC1.renderNav(route);
+  WC1.applyNavFilter();
   WC1.renderFaculty();
-  const titleBits = ['Western Civilization I'];
-  document.title = titleBits.join(' · ');
+  document.title = WC1.titleFor(route);
   WC1.markSeen(WC1.pathOf(route));
   WC1.track(WC1.pathOf(route), document.title);
 };
@@ -325,9 +354,16 @@ WC1.bindChrome = function () {
   document.getElementById('nav-backdrop').addEventListener('click', function () {
     document.documentElement.classList.remove('nav-open');
   });
-  document.getElementById('b-theme').addEventListener('click', function () {
+  const themeBtn = document.getElementById('b-theme');
+  WC1.paintTheme = function () {
+    const dark = WC1.state.theme === 'dark';
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+    themeBtn.textContent = dark ? '\u263e' : '\u2600';
+    themeBtn.setAttribute('aria-label', dark ? 'Switch to light' : 'Switch to dark');
+  };
+  themeBtn.addEventListener('click', function () {
     WC1.state.theme = WC1.state.theme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', WC1.state.theme);
+    WC1.paintTheme();
     WC1.saveState();
   });
   document.addEventListener('keydown', function (e) {
@@ -337,12 +373,7 @@ WC1.bindChrome = function () {
     }
   });
   const find = document.getElementById('find');
-  find.addEventListener('input', function () {
-    const q = find.value.toLowerCase();
-    document.querySelectorAll('#nav-list a').forEach(function (a) {
-      a.style.display = !q || a.textContent.toLowerCase().indexOf(q) !== -1 ? '' : 'none';
-    });
-  });
+  find.addEventListener('input', WC1.applyNavFilter);
   window.addEventListener('hashchange', function () {
     document.documentElement.classList.remove('nav-open');
     WC1.render();
@@ -353,9 +384,9 @@ WC1.bindChrome = function () {
 WC1.boot = function () {
   WC1.loadState();
   WC1.readFacultyFromURL();
-  document.documentElement.setAttribute('data-theme', WC1.state.theme || 'light');
   WC1.installGoat();
   WC1.bindChrome();
+  WC1.paintTheme();
   WC1.render();
 };
 

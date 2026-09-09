@@ -102,7 +102,7 @@ WC1.registerWeek({
       blurb: 'A split of symbols: sceptre, ring, staff.',
       html:
         '<p>After Gregory’s exile and death, after Henry’s antipope, after a generation of war in Germany and Italy, Pope Calixtus II and Emperor Henry V agree at Worms in 1122. In the Empire the settlement is: free election of bishops; the emperor invests with the sceptre (the temporal, the land and loyalty); the Church invests with ring and staff (the spiritual office). In some other lands the mix differs. The point is the split of symbols: two laws, two props, one man who is still both pastor and lord.</p>' +
-        '<p>A procedure is not a peace of souls. It is a way to go on without pretending the quarrel never happened. The bishop is still a double thing. Later Europe will live inside that habit: a church that can quarrel with a king without disappearing, and a king who can still need bishops as men of land.</p>' +
+        '<p>A procedure settles nothing in the soul. What it does is let two parties go on without pretending the quarrel never happened. The bishop is still a double thing. Later Europe will live inside that habit: a church that can quarrel with a king without disappearing, and a king who can still need bishops as men of land.</p>' +
         '<p>This course ends here on purpose. The twelfth-century renaissance, the universities, the later papacy — those belong to the next sequence. You now have the quarrel that makes them possible: two jurisdictions in one landscape.</p>'
     },
     {

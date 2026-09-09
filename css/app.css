@@ -579,6 +579,48 @@ img.map.parchment { filter: sepia(.4) saturate(.7) contrast(1.04) hue-rotate(-12
 .one-many details { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 8px 12px; margin: 8px 0; }
 .one-many summary { cursor: pointer; font-weight: 600; }
 
+.cf-premise {
+  font-family: var(--sans);
+  font-size: 13.5px;
+  color: var(--muted);
+  max-width: 42rem;
+  margin: 0 0 10px;
+  padding: 8px 12px;
+  border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 7%, var(--panel2));
+  border-radius: 0 8px 8px 0;
+}
+.cf-premise strong { color: var(--ink); }
+.cf-flag {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 8px;
+}
+.dispute-shifts { max-width: 42rem; margin-top: 4px; }
+.dispute-shifts h4 {
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+.passage .stance {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.passage.opposing { border-left: 3px solid var(--accent); }
+.passage.complementary { border-left: 3px solid var(--good); }
+.passage.opposing .stance { color: var(--accent); }
+.passage.complementary .stance { color: var(--good); }
+
 @media (max-width: 860px) {
   .app { grid-template-columns: 1fr; grid-template-areas: "faculty" "head" "main"; }
   nav {

@@ -3,7 +3,13 @@ WC1.engines.passages = function (spec, mount) {
   const grid = WC1.el('div', { class: 'passages' });
   let anyOrig = false;
   (spec.passages || spec.positions || []).forEach(function (p) {
-    const card = WC1.el('article', { class: 'passage' + (showOrig && p.original ? ' show-orig' : '') });
+    const card = WC1.el('article', { class: 'passage' + (p.stance ? ' ' + p.stance : '') + (showOrig && p.original ? ' show-orig' : '') });
+    if (p.stance) {
+      card.appendChild(WC1.el('div', {
+        class: 'stance',
+        text: p.stance === 'opposing' ? 'Opposing' : (p.stance === 'complementary' ? 'Complementary' : p.stance)
+      }));
+    }
     const head = WC1.el('header');
     head.appendChild(WC1.el('h3', { text: p.scholar || p.title || p.who || '' }));
     const who = [p.who, p.years, p.work].filter(Boolean).join(' · ');
@@ -37,6 +43,12 @@ WC1.engines.passages = function (spec, mount) {
     mount.appendChild(tog);
   }
   mount.appendChild(grid);
+  if (spec.shifts) {
+    const sh = WC1.el('div', { class: 'prose dispute-shifts' });
+    sh.appendChild(WC1.el('h4', { text: 'How the scholarship moved' }));
+    sh.appendChild(WC1.el('div', { html: spec.shifts }));
+    mount.appendChild(sh);
+  }
   if (spec.ask) {
     mount.appendChild(WC1.el('p', { class: 'note', html: spec.ask }));
   }

@@ -62,7 +62,7 @@ WC1.registerWeek({
       },
       steps: [
         { title: 'The playing-card', html: '<p>A rectangle, a ditch and palisade, four gates. Via praetoria and via principalis cross. The praetorium is where command sits. A soldier can find his tent in the dark because the city has a grammar.</p>', gate: 'porta praetoria' },
-        { title: 'The road', html: '<p>A via is not a path. It is a built thing: bedding, gravel, a crown for water, milestones. It is how a census-class of allies can be summoned, and how a province can be a walk rather than a rumor.</p>', gate: 'via Appia (the type)' },
+        { title: 'The road', html: '<p>A via is built, not worn: bedding, gravel, a crown for the water, milestones. It is how a census-class of allies can be summoned, and how a province can be a walk rather than a rumor.</p>', gate: 'via Appia (the type)' },
         { title: 'Why it belongs before “empire”', html: '<p>Imperium as a world is later. Imperium as a consul’s command is already this: a man whose ditch is a law. Without camp and road, the Senate’s letters are wishes.</p>', gate: 'porta decumana' }
       ]
     },
@@ -75,16 +75,43 @@ WC1.registerWeek({
       blurb: 'Command, “friendship,” province: three names for Roman power before there is an emperor.',
       positions: [
         {
+          stance: 'complementary',
           scholar: 'The public-law sense',
           summary: 'Imperium is the magistrate’s right to command citizens and to make war. It is time-limited, colleague-checked, and sacred with the auspices.',
           html: '<p>Do not read later emperors backward into the third century BC. A consul in the field holds <em>imperium</em> — the right to command citizens and to make war — but he is not a king. He has a colleague (a twin in office), a year in command, and, in theory, a city that can try him afterward. That is what “republic” means here: command that is shared and timed, not a throne.</p>'
         },
         {
+          stance: 'complementary',
           scholar: 'The Hellenistic sense',
           summary: 'In the east, Rome looks like a suzerain: “friends,” hostages, indemnities, the power to unmake a league. Greeks have names for that. Romans can still call it liberty.',
           html: '<p>In 196 BC Flamininus proclaimed the freedom of the Greeks; in 146 Rome sacked Corinth. Those are the same policy at different temperatures: Rome as arbitrator who can also unmake a city. The dispute is whether the Romans were hypocrites, or whether <em>libertas</em> meant, for them, a place inside their system of “friends” and hostages — not independence as a Greek would define it.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'William V. Harris',
+          years: '1979',
+          work: 'War and Imperialism in Republican Rome',
+          summary: 'Rome expanded because its ruling class wanted war: glory, triumphs, plunder, and a career in which a consul had one year to earn a name.',
+          html: '<p>Harris counts the years of war and finds almost none without one. He points at the institutions: an annual magistracy whose holder needs a campaign, a triumph as the summit of a life, a census of men available every year, and a nobility whose standing is measured in the deeds of its ancestors. On this reading the wars are not a series of reluctant answers to threats. They are what a Roman aristocrat was for.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Erich S. Gruen',
+          years: '1984',
+          work: 'The Hellenistic World and the Coming of Rome',
+          summary: 'Rome was drawn east by the diplomacy of Greek states that invited it in, and behaved for a long time like one more Hellenistic power rather than a conqueror with a plan.',
+          html: '<p>Gruen reads the eastern wars from the Greek side: leagues and kings calling in a strong friend against a neighbour, then finding the friend could not be sent home. Flamininus proclaims freedom at the Isthmus and means something by it; annexation comes late, unevenly, and usually after the alternatives have failed. Against Harris he insists that a state can be aggressive in temper and still be pulled rather than pushed.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Arthur M. Eckstein',
+          years: '2006',
+          work: 'Mediterranean Anarchy, Interstate War, and the Rise of Rome',
+          summary: 'Every state in that world was militarized and predatory. Rome is not unusually aggressive; it is unusually good at absorbing allies and replacing armies.',
+          html: '<p>Eckstein describes an anarchic states-system: no arbiter, so every power arms, and the real question is not why Rome fought but why Rome won. His answer is manpower and alliance \u2014 the Italian machine you saw in the camp room \u2014 rather than a special appetite. Complementary because it grants Harris the bellicosity and denies that bellicosity distinguishes Rome from Macedon, Carthage, or the Aetolians.</p>'
         }
       ],
+      shifts: '<p>Older accounts, following Rome\u2019s own writers, made the wars defensive: Rome fought when it had to. Harris ended that in 1979 by counting. Gruen answered from the Greek evidence that being aggressive is not the same as having a programme. Eckstein then widened the frame until the question became comparative. None of the three disputes the material fact this week is about \u2014 a road, a camp, and an alliance-system that could put a fresh army in the field after a lost one.</p>',
       ask: 'When a Greek city thanks Rome for liberty, what has it actually received — a constitution, or a delay?'
     },
     {

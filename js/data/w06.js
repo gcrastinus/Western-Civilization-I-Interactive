@@ -106,7 +106,7 @@ WC1.registerWeek({
             { t: 0, title: 'Pursuit as a temptation', html: '<p>Killing or taking Darius in the first hour is the dream of the Companions.</p>' },
             { t: 1, title: 'The bill', html: '<p>An army is a political body. Sacrifice Parmenion’s wing and you may win a corpse and lose Macedonians who will later vote with their feet in India. Alexander’s legend is full of charges. His survival as captain is full of returns.</p>' }
           ],
-          verdict: 'The “obvious” chase of the king is the battle’s purpose and its risk. Gaugamela is won because the chase was timed, not because it was total.'
+          verdict: 'Chasing the king is both the purpose of the battle and the way to lose it. Gaugamela is won because the pursuit was timed, not because it was total.'
         }
       ]
     },

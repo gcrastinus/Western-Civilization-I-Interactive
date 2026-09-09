@@ -79,17 +79,34 @@ WC1.registerWeek({
       blurb: 'Frankfort’s warning, without assigning Frankfort this week.',
       positions: [
         {
+          stance: 'opposing',
           scholar: 'Henri Frankfort (position)',
           work: 'Myth and Reality (as a type of argument)',
           summary: 'Myth is a way of being in the world, not a failed physics. To ask “did they really believe that?” as if they were bad scientists is to miss what the act of myth is doing.',
-          html: '<p>The Memphite Theology (Ptah creating by speech and craft) is not a primitive lab report that got the physics wrong. It is a way of locating speech, craft, and kingship in the same origin. If you translate it into “they thought Ptah was a person who invented tools,” you have already left their world and entered a modern quarrel about belief.</p>'
+          html: '<p>The Memphite Theology — Ptah creating by speech and by craft — does not fail as physics; it was never attempting physics. What it does is put speech, craft, and kingship in one origin. If you translate it into “they thought Ptah was a person who invented tools,” you have already left their world and entered a modern quarrel about belief.</p>'
         },
         {
+          stance: 'opposing',
           scholar: 'A documentary reading',
           summary: 'Myths are also charters: they justify a temple’s income, a king’s levy, a city’s rank. Follow the grain and the office, not only the piety.',
           html: '<p>Mario Liverani’s kind of suspicion: a first city is an organization of surplus — who stores the grain, who eats, who serves. Hymns are part of that organization, not a separate spiritual layer. Both readings can be true at once. They are not the same question: one asks how the world is conceived; the other asks who is fed.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Jean Bott\u00e9ro',
+          work: 'Mesopotamian religion and divination',
+          summary: 'Take the omen-lists as reasoning. Divination in Mesopotamia is an enormous, disciplined attempt to read a written world \u2014 nearer to a science of signs than to superstition.',
+          html: '<p>Bott\u00e9ro read the liver-omens and the dream-books as what their compilers took them to be: a system in which the gods write and trained men read. Whether it worked is not the historian\u2019s first question. That a palace paid specialists to do it for two thousand years is a fact about how that world thought knowledge was got \u2014 and it makes the later Greek habit of putting questions to nature in public look like the strange thing it was.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Jan Assmann',
+          work: 'cultural memory; the Egyptian material',
+          summary: 'A culture keeps itself by rehearsing a past. The question is less whether they believed it than what the rehearsal was for.',
+          html: '<p>Assmann asks how a society stores and re-performs what it takes to be foundational \u2014 in rite, in monument, in a canon that may be copied but not altered. On that account the Memphite Theology and the great hymns are memory devices for a political order, and Akhenaten\u2019s brief revolution is a fight over what may be rehearsed in public. Assmann also presses a further and much-contested claim about what a religion changes when it begins to distinguish true worship from false; you can use his account of memory without taking on that thesis.</p>'
         }
       ],
+      shifts: '<p>The old quarrel asked whether ancient people were bad scientists. Frankfort ended it by asking what the act of myth does; Liverani turned attention to who was fed; Bott\u00e9ro found rigorous procedure inside what had looked like superstition; Assmann asked what a society was doing when it repeated a story. None of the four replaced the others. They are four questions that can all be put to one hymn, and they will give four different answers.</p>',
       ask: 'When a hymn and a levy inhabit one temple, which reading is doing the work — and when do you need both?'
     },
     {
